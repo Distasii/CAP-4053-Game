@@ -1,4 +1,4 @@
-﻿Log file open, 02/11/18 12:51:30
+﻿Log file open, 02/14/18 00:29:36
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,12 +9,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: TutorialGame
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-521381622) SRandInit(-521381622).
+LogInit: Display: RandInit(241386493) SRandInit(241386493).
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
-LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.171547
+LogTaskGraph: Started task graph with 5 named threads and 20 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.247609
 LogD3D11RHI: Aftermath initialized
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
@@ -191,167 +191,539 @@ LogInit: Compiled (64-bit): Jan 12 2018 02:04:55
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.18
-LogInit: Command line: -EpicPortal 
+LogInit: Command line:  
 LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.02.11-17.51.31:831][  0]LogInit: Selected Device Profile: [Windows]
-[2018.02.11-17.51.31:831][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.02.11-17.51.31:843][  0]LogInit: Computer: XENOTOWER
-[2018.02.11-17.51.31:843][  0]LogInit: User: PD
-[2018.02.11-17.51.31:843][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.02.11-17.51.31:843][  0]LogInit: High frequency timer resolution =3.703129 MHz
-[2018.02.11-17.51.31:844][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
-[2018.02.11-17.51.31:844][  0]LogMemory: Platform Memory Stats for Windows
-[2018.02.11-17.51.31:844][  0]LogMemory: Process Physical Memory: 275.04 MB used, 275.04 MB peak
-[2018.02.11-17.51.31:844][  0]LogMemory: Process Virtual Memory: 271.69 MB used, 271.69 MB peak
-[2018.02.11-17.51.31:844][  0]LogMemory: Physical Memory: 6494.64 MB used,  9854.21 MB free, 16348.86 MB total
-[2018.02.11-17.51.31:844][  0]LogMemory: Virtual Memory: 679.10 MB used,  9854.21 MB free, 134217728.00 MB total
-[2018.02.11-17.51.31:970][  0]LogInit: Using OS detected language (en-US).
-[2018.02.11-17.51.31:970][  0]LogInit: Using OS detected locale (en-US).
-[2018.02.11-17.51.31:973][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.02.11-17.51.32:329][  0]LogInit: Setting process to per monitor DPI aware
-[2018.02.11-17.51.32:517][  0]LogD3D11RHI: D3D11 adapters:
-[2018.02.11-17.51.32:567][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
-[2018.02.11-17.51.32:567][  0]LogD3D11RHI:       8096/0/8174 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.02.11-17.51.32:569][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.02.11-17.51.32:569][  0]LogD3D11RHI:       0/0/8174 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.02.11-17.51.32:569][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.02.11-17.51.32:573][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.02.11-17.51.32:573][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
-[2018.02.11-17.51.32:573][  0]LogWindows: EnumDisplayDevices:
-[2018.02.11-17.51.32:573][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
-[2018.02.11-17.51.32:573][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.02.11-17.51.32:573][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.02.11-17.51.32:574][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.02.11-17.51.32:574][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.02.11-17.51.32:574][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
-[2018.02.11-17.51.32:574][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.02.11-17.51.32:574][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.02.11-17.51.32:574][  0]LogRHI: Texture pool is 5667 MB (70% of 8096 MB)
-[2018.02.11-17.51.32:594][  0]LogD3D11RHI: Async texture creation enabled
-[2018.02.11-17.51.32:633][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2018.02.11-17.51.32:681][  0]LogShaderCompilers: Guid format shader working directory is -22 characters bigger than the processId version (../../../../../../Users/PD/Documents/Unreal Projects/TutorialGame/Intermediate/Shaders/WorkingDirectory/2660/).
-[2018.02.11-17.51.32:681][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/PD/AppData/Local/Temp/UnrealShaderWorkingDir/1F14D6274FAD75891BD3648DC0B4BB37/'.
-[2018.02.11-17.51.32:681][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.02.11-17.51.33:482][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.02.11-17.51.33:525][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.02.11-17.51.33:569][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.02.11-17.51.33:613][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.02.11-17.51.33:659][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.02.11-17.51.33:707][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.02.11-17.51.33:751][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.02.11-17.51.33:797][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.02.11-17.51.33:836][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.02.11-17.51.33:878][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.02.11-17.51.33:921][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.02.11-17.51.33:964][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.02.11-17.51.34:006][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.02.11-17.51.34:051][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.02.11-17.51.34:137][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.02.11-17.51.34:137][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.02.11-17.51.34:179][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.02.11-17.51.34:212][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.02.11-17.51.34:292][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.02.11-17.51.34:314][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.02.11-17.51.34:357][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.02.11-17.51.34:400][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.02.11-17.51.34:443][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.02.11-17.51.34:487][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.02.11-17.51.34:487][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.02.11-17.51.34:887][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.02.11-17.51.34:943][  0]LogDerivedDataCache: Loaded boot cache 0.06s 78MB C:/Users/PD/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.02.11-17.51.34:943][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/PD/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
-[2018.02.11-17.51.34:943][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/PD/Documents/Unreal Projects/TutorialGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.02.11-17.51.34:943][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.02.11-17.51.34:943][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/PD/Documents/Unreal Projects/TutorialGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.02.11-17.51.34:943][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.02.11-17.51.34:957][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.02.11-17.51.34:969][  0]LogDerivedDataCache: Using Local data cache path C:/Users/PD/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.02.11-17.51.34:978][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.02.11-17.51.34:978][  0]LogSlate: Using Freetype 2.6.0
-[2018.02.11-17.51.34:979][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.02.11-17.51.34:979][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.02.11-17.51.35:273][  0]LogInit: Selected Device Profile: [Windows]
-[2018.02.11-17.51.35:557][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.02.11-17.51.35:592][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.02.11-17.51.35:592][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.02.11-17.51.35:592][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.02.11-17.51.35:592][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.02.11-17.51.35:592][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.02.11-17.51.35:615][  0]LogNetVersion: TutorialGame , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4282821769)
-[2018.02.11-17.51.35:762][  0]LogAssetRegistry: FAssetRegistry took 0.0247 seconds to start up
-[2018.02.11-17.51.36:198][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.053999 seconds
-[2018.02.11-17.51.36:203][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
-[2018.02.11-17.51.36:204][  0]LogUObjectAllocator: 7363696 out of 0 bytes used by permanent object pool.
-[2018.02.11-17.51.36:204][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.02.11-17.51.36:250][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2018.02.11-17.51.38:597][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.02.11-17.51.38:635][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.02.11-17.51.39:229][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.02.11-17.51.39:596][  0]SourceControl: Source control is disabled
-[2018.02.11-17.51.39:596][  0]SourceControl: Source control is disabled
-[2018.02.11-17.51.39:642][  0]SourceControl: Source control is disabled
-[2018.02.11-17.51.39:690][  0]SourceControl: Source control is disabled
-[2018.02.11-17.51.40:400][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.02.11-17.51.40:643][  0]LogOcInput: OculusInput pre-init called
-[2018.02.11-17.51.40:908][  0]LogEngine: Initializing Engine...
-[2018.02.11-17.51.40:910][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.02.11-17.51.41:086][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.02.11-17.51.41:086][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.02.11-17.51.41:201][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.02.11-17.51.41:207][  0]LogInit: XAudio2 using 'Speakers (Logitech G430 Gaming Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.02.11-17.51.41:217][  0]LogInit: FAudioDevice initialized.
-[2018.02.11-17.51.41:423][  0]LogDerivedDataCache: Saved boot cache 0.21s 78MB C:/Users/PD/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.02.11-17.51.41:437][  0]LogInit: Texture streaming: Enabled
-[2018.02.11-17.51.41:522][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.02.11-17.51.41:637][  0]LogInit: Transaction tracking system initialized
-[2018.02.11-17.51.41:906][  0]BlueprintLog: New page: Editor Load
-[2018.02.11-17.51.42:698][  0]LocalizationService: Localization service is disabled
-[2018.02.11-17.51.43:337][  0]LogConsoleResponse: Display: 
-[2018.02.11-17.51.43:481][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.02.11-17.51.43:481][  0]LogCook: Display: Mobile HDR setting 1
-[2018.02.11-17.51.43:481][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.02.11-17.51.43:836][  0]LogFileCache: Scanning file cache for directory 'C:/Users/PD/Documents/Unreal Projects/TutorialGame/Content/' took 0.01s
-[2018.02.11-17.51.44:514][  0]SourceControl: Source control is disabled
-[2018.02.11-17.51.44:515][  0]Cmd: MAP LOAD FILE="../../../../../../Users/PD/Documents/Unreal Projects/TutorialGame/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.02.11-17.51.44:515][  0]LightingResults: New page: Lighting Build
-[2018.02.11-17.51.44:552][  0]MapCheck: New page: Map Check
-[2018.02.11-17.51.44:552][  0]LightingResults: New page: Lighting Build
-[2018.02.11-17.51.44:905][  0]LogAIModule: Creating AISystem for world Minimal_Default
-[2018.02.11-17.51.44:913][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.02.11-17.51.44:923][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.02.11-17.51.44:967][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 43.985ms to complete.
-[2018.02.11-17.51.44:967][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.453
-[2018.02.11-17.51.45:083][  0]LogCollectionManager: Loaded 0 collections in 0.001528 seconds
-[2018.02.11-17.51.45:153][  0]LogFileCache: Scanning file cache for directory 'C:/Users/PD/Documents/Unreal Projects/TutorialGame/Saved/Collections/' took 0.01s
-[2018.02.11-17.51.45:153][  0]LogFileCache: Scanning file cache for directory 'C:/Users/PD/Documents/Unreal Projects/TutorialGame/Content/Developers/PD/Collections/' took 0.01s
-[2018.02.11-17.51.45:153][  0]LogFileCache: Scanning file cache for directory 'C:/Users/PD/Documents/Unreal Projects/TutorialGame/Content/Collections/' took 0.01s
-[2018.02.11-17.51.45:153][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.02.11-17.51.45:160][  0]LogContentBrowser: Native class hierarchy populated in 0.0067 seconds. Added 2363 classes and 519 folders.
-[2018.02.11-17.51.45:217][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.02.11-17.51.45:249][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.02.11-17.51.45:289][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2018.02.11-17.51.45:345][  0]LogSlate: Took 0.000169 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.02.11-17.51.45:347][  0]LogSlate: Took 0.000133 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.02.11-17.51.45:351][  0]LogSlate: Took 0.000194 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.02.11-17.51.45:432][  0]LogRenderer: Reallocating scene render targets to support 1208x600 Format 10 NumSamples 1 (Frame:1).
-[2018.02.11-17.51.45:594][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
-[2018.02.11-17.51.45:594][  0]LogLoad: (Engine Initialization) Total time: 15.80 seconds
-[2018.02.11-17.51.45:594][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.02.11-17.51.45:594][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2018.02.11-17.51.45:604][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.02.11-17.51.45:621][  0]LogAssetRegistry: Asset discovery search completed in 9.8808 seconds
-[2018.02.11-17.51.45:622][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2018.02.11-17.51.45:623][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000045 seconds (updated 0 objects)
-[2018.02.11-17.51.45:625][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.02.11-17.51.45:664][  0]LogSlate: Took 0.000101 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.02.11-17.51.59:286][196]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.TutorialGame
-[2018.02.11-17.51.59:286][196]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
-[2018.02.11-17.51.59:286][196]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.18
-[2018.02.11-17.51.59:286][196]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
-[2018.02.11-17.51.59:286][196]LogTemp: BranchPath = XENOTOWER/C/Program Files/Epic Games/UE_4.18/Engine/Binaries --- GameBranchPath = XENOTOWER/C/Program Files/Epic Games/UE_4.18/Engine/Binaries
-[2018.02.11-17.51.59:286][196]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2018.02.11-17.51.59:368][197]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\PD\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2018.02.11-17.52.05:108][807]LogSlate: Took 0.000146 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.14-05.29.38:830][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.14-05.29.38:830][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.02.14-05.29.38:840][  0]LogInit: Computer: CHIPETTO
+[2018.02.14-05.29.38:840][  0]LogInit: User: Jon
+[2018.02.14-05.29.38:840][  0]LogInit: CPU Page size=4096, Cores=6
+[2018.02.14-05.29.38:840][  0]LogInit: High frequency timer resolution =3.415987 MHz
+[2018.02.14-05.29.38:841][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.02.14-05.29.38:841][  0]LogMemory: Platform Memory Stats for Windows
+[2018.02.14-05.29.38:841][  0]LogMemory: Process Physical Memory: 271.59 MB used, 271.59 MB peak
+[2018.02.14-05.29.38:841][  0]LogMemory: Process Virtual Memory: 270.44 MB used, 270.44 MB peak
+[2018.02.14-05.29.38:841][  0]LogMemory: Physical Memory: 4792.08 MB used,  11504.43 MB free, 16296.50 MB total
+[2018.02.14-05.29.38:841][  0]LogMemory: Virtual Memory: 627.72 MB used,  11504.43 MB free, 134217728.00 MB total
+[2018.02.14-05.29.39:002][  0]LogInit: Using OS detected language (en-US).
+[2018.02.14-05.29.39:002][  0]LogInit: Using OS detected locale (en-US).
+[2018.02.14-05.29.39:006][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.02.14-05.29.39:534][  0]LogInit: Setting process to per monitor DPI aware
+[2018.02.14-05.29.39:862][  0]LogD3D11RHI: D3D11 adapters:
+[2018.02.14-05.29.39:903][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2018.02.14-05.29.39:903][  0]LogD3D11RHI:       8046/0/8148 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.02.14-05.29.39:905][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.02.14-05.29.39:905][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.02.14-05.29.39:905][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.02.14-05.29.39:913][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.02.14-05.29.39:913][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2018.02.14-05.29.39:913][  0]LogWindows: EnumDisplayDevices:
+[2018.02.14-05.29.39:914][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2018.02.14-05.29.39:914][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2018.02.14-05.29.39:914][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.02.14-05.29.39:915][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.02.14-05.29.39:915][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.02.14-05.29.39:915][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2018.02.14-05.29.39:915][  0]LogD3D11RHI:   Driver Version: 390.65 (internal:23.21.13.9065, unified:390.65)
+[2018.02.14-05.29.39:915][  0]LogD3D11RHI:      Driver Date: 1-3-2018
+[2018.02.14-05.29.39:915][  0]LogRHI: Texture pool is 5632 MB (70% of 8046 MB)
+[2018.02.14-05.29.39:942][  0]LogD3D11RHI: Async texture creation enabled
+[2018.02.14-05.29.39:962][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.02.14-05.29.40:012][  0]LogShaderCompilers: Guid format shader working directory is -24 characters bigger than the processId version (../../../../../../Users/Jon/Documents/Unreal Projects/CAP-4053-Game/Intermediate/Shaders/WorkingDirectory/12572/).
+[2018.02.14-05.29.40:013][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Jon/AppData/Local/Temp/UnrealShaderWorkingDir/1A49F3164B69000560C93C86EF2B6FC6/'.
+[2018.02.14-05.29.40:013][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.02.14-05.29.41:229][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.02.14-05.29.41:287][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.02.14-05.29.41:356][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.02.14-05.29.41:417][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.02.14-05.29.41:474][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.02.14-05.29.41:531][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.02.14-05.29.41:588][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.02.14-05.29.41:693][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.02.14-05.29.41:765][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.02.14-05.29.41:828][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.02.14-05.29.41:883][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.02.14-05.29.41:939][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.02.14-05.29.42:006][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.02.14-05.29.42:071][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.02.14-05.29.42:201][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.02.14-05.29.42:201][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.02.14-05.29.42:263][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.02.14-05.29.42:330][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.02.14-05.29.42:448][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.02.14-05.29.42:478][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.02.14-05.29.42:544][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.02.14-05.29.42:606][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.02.14-05.29.42:674][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.02.14-05.29.42:746][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.02.14-05.29.42:746][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.02.14-05.29.43:353][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.02.14-05.29.43:493][  0]LogDerivedDataCache: Loaded boot cache 0.14s 78MB C:/Users/Jon/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.02.14-05.29.43:493][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Jon/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.02.14-05.29.43:493][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Jon/Documents/Unreal Projects/CAP-4053-Game/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.02.14-05.29.43:493][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.02.14-05.29.43:493][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Jon/Documents/Unreal Projects/CAP-4053-Game/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.02.14-05.29.43:493][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.02.14-05.29.43:512][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.02.14-05.29.43:524][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Jon/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.02.14-05.29.43:551][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.02.14-05.29.43:551][  0]LogSlate: Using Freetype 2.6.0
+[2018.02.14-05.29.43:552][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.02.14-05.29.43:553][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.02.14-05.29.44:126][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.14-05.29.44:611][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.02.14-05.29.44:690][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.02.14-05.29.44:690][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.02.14-05.29.44:690][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.02.14-05.29.44:690][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.02.14-05.29.44:690][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.02.14-05.29.44:738][  0]LogNetVersion: TutorialGame , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4282821769)
+[2018.02.14-05.29.44:977][  0]LogAssetRegistry: FAssetRegistry took 0.0279 seconds to start up
+[2018.02.14-05.29.45:686][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.075797 seconds
+[2018.02.14-05.29.45:690][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2018.02.14-05.29.45:690][  0]LogUObjectAllocator: 7363704 out of 0 bytes used by permanent object pool.
+[2018.02.14-05.29.45:690][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.02.14-05.29.45:743][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.02.14-05.29.49:609][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.02.14-05.29.49:663][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.02.14-05.29.50:613][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.02.14-05.29.51:242][  0]SourceControl: Source control is disabled
+[2018.02.14-05.29.51:242][  0]SourceControl: Source control is disabled
+[2018.02.14-05.29.51:333][  0]SourceControl: Source control is disabled
+[2018.02.14-05.29.51:418][  0]SourceControl: Source control is disabled
+[2018.02.14-05.29.52:694][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.02.14-05.29.53:123][  0]LogOcInput: OculusInput pre-init called
+[2018.02.14-05.29.53:562][  0]LogEngine: Initializing Engine...
+[2018.02.14-05.29.53:564][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.02.14-05.29.53:843][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.02.14-05.29.53:843][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.02.14-05.29.53:987][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.02.14-05.29.54:008][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.14-05.29.54:045][  0]LogInit: FAudioDevice initialized.
+[2018.02.14-05.29.54:140][  0]LogDerivedDataCache: Saved boot cache 0.09s 78MB C:/Users/Jon/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.02.14-05.29.54:159][  0]LogInit: Texture streaming: Enabled
+[2018.02.14-05.29.54:359][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.02.14-05.29.54:539][  0]LogInit: Transaction tracking system initialized
+[2018.02.14-05.29.55:047][  0]BlueprintLog: New page: Editor Load
+[2018.02.14-05.29.56:117][  0]LocalizationService: Localization service is disabled
+[2018.02.14-05.29.57:029][  0]LogConsoleResponse: Display: 
+[2018.02.14-05.29.57:226][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.02.14-05.29.57:226][  0]LogCook: Display: Mobile HDR setting 1
+[2018.02.14-05.29.57:226][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.02.14-05.29.57:911][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jon/Documents/Unreal Projects/CAP-4053-Game/Content/' took 0.02s
+[2018.02.14-05.29.58:843][  0]SourceControl: Source control is disabled
+[2018.02.14-05.29.58:843][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Jon/Documents/Unreal Projects/CAP-4053-Game/Content/Maps/SpawnMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.02.14-05.29.58:844][  0]LightingResults: New page: Lighting Build
+[2018.02.14-05.29.58:900][  0]MapCheck: New page: Map Check
+[2018.02.14-05.29.58:900][  0]LightingResults: New page: Lighting Build
+[2018.02.14-05.29.59:181][  0]LogAIModule: Creating AISystem for world SpawnMap
+[2018.02.14-05.29.59:190][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.02.14-05.29.59:208][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.02.14-05.29.59:287][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 78.66ms to complete.
+[2018.02.14-05.29.59:287][  0]LogFileHelpers: Loading map 'SpawnMap' took 0.444
+[2018.02.14-05.29.59:461][  0]LogCollectionManager: Loaded 0 collections in 0.001955 seconds
+[2018.02.14-05.29.59:560][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jon/Documents/Unreal Projects/CAP-4053-Game/Saved/Collections/' took 0.01s
+[2018.02.14-05.29.59:560][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jon/Documents/Unreal Projects/CAP-4053-Game/Content/Developers/Jon/Collections/' took 0.01s
+[2018.02.14-05.29.59:560][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jon/Documents/Unreal Projects/CAP-4053-Game/Content/Collections/' took 0.01s
+[2018.02.14-05.29.59:560][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.02.14-05.29.59:569][  0]LogContentBrowser: Native class hierarchy populated in 0.0083 seconds. Added 2363 classes and 519 folders.
+[2018.02.14-05.29.59:656][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.02.14-05.29.59:739][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.02.14-05.29.59:792][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.02.14-05.29.59:809][  0]LogSlate: Took 0.000200 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.02.14-05.29.59:811][  0]LogSlate: Took 0.000198 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.02.14-05.29.59:820][  0]LogSlate: Took 0.000208 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.02.14-05.29.59:927][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2018.02.14-05.30.00:125][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.02.14-05.30.00:126][  0]LogLoad: (Engine Initialization) Total time: 24.66 seconds
+[2018.02.14-05.30.00:126][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.02.14-05.30.00:126][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.02.14-05.30.00:487][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.02.14-05.30.00:808][  1]LogAssetRegistry: Asset discovery search completed in 15.8540 seconds
+[2018.02.14-05.30.00:810][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.02.14-05.30.00:810][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000039 seconds (updated 0 objects)
+[2018.02.14-05.30.01:470][  3]LogSlate: Took 0.000699 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.14-05.30.04:810][ 13]LogSlate: Took 0.000476 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.14-05.30.08:437][290]LogSlate: Took 0.000161 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.14-05.30.08:554][290]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2018.02.14-05.30.08:864][290]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.02.14-05.30.08:864][290]LogScript: Warning: Accessed None trying to read property WithSword Reference
+	WithSwordAnimBP_C /Engine/Transient.World_1:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.WithSwordAnimBP_C_0
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:0494
+[2018.02.14-05.30.08:865][290]LogScript: Warning: Accessed None
+	WithSwordAnimBP_C /Engine/Transient.World_1:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.WithSwordAnimBP_C_0
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:04A9
+[2018.02.14-05.30.09:186][290]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 116 classes and 0 folders.
+[2018.02.14-05.30.09:916][290]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_1:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.02.14-05.30.10:177][290]LogScript: Warning: Accessed None trying to read property WithSword Reference
+	WithSwordAnimBP_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.WithSwordAnimBP_C_2
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:0494
+[2018.02.14-05.30.10:178][290]LogScript: Warning: Accessed None
+	WithSwordAnimBP_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.WithSwordAnimBP_C_2
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:04A9
+[2018.02.14-05.30.10:182][290]LogScript: Warning: Accessed None trying to read property WithSword Reference
+	WithSwordAnimBP_C /Engine/Transient.World_1:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.WithSwordAnimBP_C_0
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:0494
+[2018.02.14-05.30.10:182][290]LogScript: Warning: Accessed None
+	WithSwordAnimBP_C /Engine/Transient.World_1:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.WithSwordAnimBP_C_0
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:04A9
+[2018.02.14-05.30.10:188][290]LogSlate: Took 0.000277 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.02.14-05.30.10:356][290]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0002 seconds. Added 1 classes and 0 folders.
+[2018.02.14-05.30.10:394][290]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.02.14-05.30.10:409][291]LogScript: Warning: Accessed None trying to read property WithSword Reference
+	WithSwordAnimBP_C /Engine/Transient.World_1:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.WithSwordAnimBP_C_0
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:0494
+[2018.02.14-05.30.10:409][291]LogScript: Warning: Accessed None
+	WithSwordAnimBP_C /Engine/Transient.World_1:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.WithSwordAnimBP_C_0
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:04A9
+[2018.02.14-05.30.10:438][292]LogScript: Warning: Accessed None trying to read property WithSword Reference
+	WithSwordAnimBP_C /Engine/Transient.World_1:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.WithSwordAnimBP_C_0
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:0494
+[2018.02.14-05.30.10:439][292]LogScript: Warning: Accessed None
+	WithSwordAnimBP_C /Engine/Transient.World_1:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.WithSwordAnimBP_C_0
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:04A9
+[2018.02.14-05.30.10:449][293]LogScript: Warning: Accessed None trying to read property WithSword Reference
+	WithSwordAnimBP_C /Engine/Transient.World_1:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.WithSwordAnimBP_C_0
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:0494
+[2018.02.14-05.30.10:449][293]LogScript: Warning: Accessed None
+	WithSwordAnimBP_C /Engine/Transient.World_1:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.WithSwordAnimBP_C_0
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:04A9
+[2018.02.14-05.30.10:460][294]LogScript: Warning: Accessed None trying to read property WithSword Reference
+	WithSwordAnimBP_C /Engine/Transient.World_1:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.WithSwordAnimBP_C_0
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:0494
+[2018.02.14-05.30.10:460][294]LogScript: Warning: Accessed None
+	WithSwordAnimBP_C /Engine/Transient.World_1:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.WithSwordAnimBP_C_0
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:04A9
+[2018.02.14-05.30.10:474][295]LogScript: Warning: Accessed None trying to read property WithSword Reference
+	WithSwordAnimBP_C /Engine/Transient.World_1:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.WithSwordAnimBP_C_0
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:0494
+[2018.02.14-05.30.10:474][295]LogScript: Warning: Accessed None
+	WithSwordAnimBP_C /Engine/Transient.World_1:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.WithSwordAnimBP_C_0
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:04A9
+[2018.02.14-05.30.10:486][296]LogScript: Warning: Accessed None trying to read property WithSword Reference
+	WithSwordAnimBP_C /Engine/Transient.World_1:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.WithSwordAnimBP_C_0
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:0494
+[2018.02.14-05.30.10:486][296]LogScript: Warning: Accessed None
+	WithSwordAnimBP_C /Engine/Transient.World_1:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.WithSwordAnimBP_C_0
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:04A9
+[2018.02.14-05.30.10:495][297]LogScript: Warning: Accessed None trying to read property WithSword Reference
+	WithSwordAnimBP_C /Engine/Transient.World_1:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.WithSwordAnimBP_C_0
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:0494
+[2018.02.14-05.30.50:934][380]LogSlate: Took 0.000247 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.02.14-05.31.01:230][168]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2018.02.14-05.31.01:268][168]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_9:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) - call TermArticulated first.
+[2018.02.14-05.31.01:637][168]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.02.14-05.34.45:408][499]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.Actor_2.DebugSkelMeshComponent_5) Already registered. Aborting.
+[2018.02.14-05.34.45:432][499]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_13:PersistentLevel.Actor_2.DebugSkelMeshComponent_5) - call TermArticulated first.
+[2018.02.14-05.34.45:806][499]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.02.14-05.36.38:902][121]BlueprintLog: New page: Compile WithSwordAnimBP
+[2018.02.14-05.36.38:983][121]LogScript: Warning: Accessed None trying to read property WithSword Reference
+	WithSwordAnimBP_C /Engine/Transient.World_1:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.WithSwordAnimBP_C_1
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:06DE
+[2018.02.14-05.36.38:983][121]LogScript: Warning: Accessed None
+	WithSwordAnimBP_C /Engine/Transient.World_1:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.WithSwordAnimBP_C_1
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:06F3
+[2018.02.14-05.36.38:983][121]LogScript: Warning: Accessed None trying to read property WithSword Reference
+	WithSwordAnimBP_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.WithSwordAnimBP_C_3
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:06DE
+[2018.02.14-05.36.38:983][121]LogScript: Warning: Accessed None
+	WithSwordAnimBP_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.WithSwordAnimBP_C_3
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:06F3
+[2018.02.14-05.36.39:242][122]LogScript: Warning: Accessed None trying to read property WithSword Reference
+	WithSwordAnimBP_C /Engine/Transient.World_1:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.WithSwordAnimBP_C_1
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:06DE
+[2018.02.14-05.36.39:243][122]LogScript: Warning: Accessed None
+	WithSwordAnimBP_C /Engine/Transient.World_1:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.WithSwordAnimBP_C_1
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:06F3
+[2018.02.14-05.36.39:265][123]LogScript: Warning: Accessed None trying to read property WithSword Reference
+	WithSwordAnimBP_C /Engine/Transient.World_1:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.WithSwordAnimBP_C_1
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:06DE
+[2018.02.14-05.36.39:266][123]LogScript: Warning: Accessed None
+	WithSwordAnimBP_C /Engine/Transient.World_1:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.WithSwordAnimBP_C_1
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:06F3
+[2018.02.14-05.36.39:279][124]LogScript: Warning: Accessed None trying to read property WithSword Reference
+	WithSwordAnimBP_C /Engine/Transient.World_1:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.WithSwordAnimBP_C_1
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:06DE
+[2018.02.14-05.36.39:279][124]LogScript: Warning: Accessed None
+	WithSwordAnimBP_C /Engine/Transient.World_1:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.WithSwordAnimBP_C_1
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:06F3
+[2018.02.14-05.36.39:293][125]LogScript: Warning: Accessed None trying to read property WithSword Reference
+	WithSwordAnimBP_C /Engine/Transient.World_1:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.WithSwordAnimBP_C_1
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:06DE
+[2018.02.14-05.36.39:293][125]LogScript: Warning: Accessed None
+	WithSwordAnimBP_C /Engine/Transient.World_1:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.WithSwordAnimBP_C_1
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:06F3
+[2018.02.14-05.36.39:307][126]LogScript: Warning: Accessed None trying to read property WithSword Reference
+	WithSwordAnimBP_C /Engine/Transient.World_1:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.WithSwordAnimBP_C_1
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:06DE
+[2018.02.14-05.36.39:307][126]LogScript: Warning: Accessed None
+	WithSwordAnimBP_C /Engine/Transient.World_1:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.WithSwordAnimBP_C_1
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:06F3
+[2018.02.14-05.36.39:320][127]LogScript: Warning: Accessed None trying to read property WithSword Reference
+	WithSwordAnimBP_C /Engine/Transient.World_1:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.WithSwordAnimBP_C_1
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:06DE
+[2018.02.14-05.36.39:320][127]LogScript: Warning: Accessed None
+	WithSwordAnimBP_C /Engine/Transient.World_1:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.WithSwordAnimBP_C_1
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:06F3
+[2018.02.14-05.36.39:346][128]LogScript: Warning: Accessed None trying to read property WithSword Reference
+	WithSwordAnimBP_C /Engine/Transient.World_1:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.WithSwordAnimBP_C_1
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:06DE
+[2018.02.14-05.36.39:346][128]LogScript: Warning: Accessed None
+	WithSwordAnimBP_C /Engine/Transient.World_1:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.WithSwordAnimBP_C_1
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:06F3
+[2018.02.14-05.36.39:360][129]LogScript: Warning: Accessed None trying to read property WithSword Reference
+	WithSwordAnimBP_C /Engine/Transient.World_1:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.WithSwordAnimBP_C_1
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:06DE
+[2018.02.14-05.36.40:143][156]LogSavePackage: Save=375.93ms
+[2018.02.14-05.36.40:143][156]LogSavePackage: Moving '../../../../../../Users/Jon/Documents/Unreal Projects/CAP-4053-Game/Saved/WithSwordAnimBP978E74064F98D118097612AA9AA27C87.tmp' to '../../../../../../Users/Jon/Documents/Unreal Projects/CAP-4053-Game/Content/Characters/Hero/WithSword/WithSwordAnimBP.uasset'
+[2018.02.14-05.36.40:148][156]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jon/Documents/Unreal Projects/CAP-4053-Game/Content/Characters/Hero/WithSword/WithSwordAnimBP.uasset
+[2018.02.14-05.36.42:842][414]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.14-05.36.42:892][414]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.14-05.36.42:892][414]PIE: New page: PIE session: SpawnMap (Feb 13, 2018, 7:36:42 PM)
+[2018.02.14-05.36.42:892][414]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_SpawnMap
+[2018.02.14-05.36.42:906][414]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014358s)
+[2018.02.14-05.36.42:907][414]LogAIModule: Creating AISystem for world SpawnMap
+[2018.02.14-05.36.42:907][414]LogPlayLevel: PIE: World Init took: (0.000633s)
+[2018.02.14-05.36.42:907][414]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/SpawnMap.SpawnMap to /Game/Maps/UEDPIE_0_SpawnMap.SpawnMap (0.015405s)
+[2018.02.14-05.36.42:937][414]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.14-05.36.42:951][414]LogInit: FAudioDevice initialized.
+[2018.02.14-05.36.42:997][414]LogLoad: Game class is 'LabyrinthGame_C'
+[2018.02.14-05.36.42:998][414]LogWorld: Bringing World /Game/Maps/UEDPIE_0_SpawnMap.SpawnMap up for play (max tick rate 0) at 2018.02.14-00.36.42
+[2018.02.14-05.36.42:998][414]LogWorld: Bringing up level for play took: 0.001195
+[2018.02.14-05.36.43:046][414]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 11 classes and 0 folders.
+[2018.02.14-05.36.43:048][414]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_SpawnMap 0.714
+[2018.02.14-05.37.23:941][238]Cmd: SELECT NONE
+[2018.02.14-05.37.55:047][189]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_18:PersistentLevel.Actor_3.DebugSkelMeshComponent_8) Already registered. Aborting.
+[2018.02.14-05.37.55:047][189]LogScript: Warning: Accessed None trying to read property WithSword Reference
+	WithSwordAnimBP_C /Engine/Transient.World_18:PersistentLevel.Actor_3.DebugSkelMeshComponent_8.WithSwordAnimBP_C_5
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:06DE
+[2018.02.14-05.37.55:047][189]LogScript: Warning: Accessed None
+	WithSwordAnimBP_C /Engine/Transient.World_18:PersistentLevel.Actor_3.DebugSkelMeshComponent_8.WithSwordAnimBP_C_5
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:06F3
+[2018.02.14-05.37.55:263][189]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_18:PersistentLevel.Actor_3.DebugSkelMeshComponent_8) - call TermArticulated first.
+[2018.02.14-05.37.55:589][189]LogScript: Warning: Accessed None trying to read property WithSword Reference
+	WithSwordAnimBP_C /Engine/Transient.World_18:PersistentLevel.Actor_3.DebugSkelMeshComponent_8.WithSwordAnimBP_C_5
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:06DE
+[2018.02.14-05.37.55:589][189]LogScript: Warning: Accessed None
+	WithSwordAnimBP_C /Engine/Transient.World_18:PersistentLevel.Actor_3.DebugSkelMeshComponent_8.WithSwordAnimBP_C_5
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:06F3
+[2018.02.14-05.37.55:757][189]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.02.14-05.37.55:781][190]LogScript: Warning: Accessed None trying to read property WithSword Reference
+	WithSwordAnimBP_C /Engine/Transient.World_18:PersistentLevel.Actor_3.DebugSkelMeshComponent_8.WithSwordAnimBP_C_5
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:06DE
+[2018.02.14-05.37.55:781][190]LogScript: Warning: Accessed None
+	WithSwordAnimBP_C /Engine/Transient.World_18:PersistentLevel.Actor_3.DebugSkelMeshComponent_8.WithSwordAnimBP_C_5
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:06F3
+[2018.02.14-05.37.55:796][191]LogScript: Warning: Accessed None trying to read property WithSword Reference
+	WithSwordAnimBP_C /Engine/Transient.World_18:PersistentLevel.Actor_3.DebugSkelMeshComponent_8.WithSwordAnimBP_C_5
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:06DE
+[2018.02.14-05.37.55:796][191]LogScript: Warning: Accessed None
+	WithSwordAnimBP_C /Engine/Transient.World_18:PersistentLevel.Actor_3.DebugSkelMeshComponent_8.WithSwordAnimBP_C_5
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:06F3
+[2018.02.14-05.37.55:816][192]LogScript: Warning: Accessed None trying to read property WithSword Reference
+	WithSwordAnimBP_C /Engine/Transient.World_18:PersistentLevel.Actor_3.DebugSkelMeshComponent_8.WithSwordAnimBP_C_5
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:06DE
+[2018.02.14-05.37.55:816][192]LogScript: Warning: Accessed None
+	WithSwordAnimBP_C /Engine/Transient.World_18:PersistentLevel.Actor_3.DebugSkelMeshComponent_8.WithSwordAnimBP_C_5
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:06F3
+[2018.02.14-05.37.55:831][193]LogScript: Warning: Accessed None trying to read property WithSword Reference
+	WithSwordAnimBP_C /Engine/Transient.World_18:PersistentLevel.Actor_3.DebugSkelMeshComponent_8.WithSwordAnimBP_C_5
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:06DE
+[2018.02.14-05.37.55:831][193]LogScript: Warning: Accessed None
+	WithSwordAnimBP_C /Engine/Transient.World_18:PersistentLevel.Actor_3.DebugSkelMeshComponent_8.WithSwordAnimBP_C_5
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:06F3
+[2018.02.14-05.37.55:851][194]LogScript: Warning: Accessed None trying to read property WithSword Reference
+	WithSwordAnimBP_C /Engine/Transient.World_18:PersistentLevel.Actor_3.DebugSkelMeshComponent_8.WithSwordAnimBP_C_5
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:06DE
+[2018.02.14-05.37.55:851][194]LogScript: Warning: Accessed None
+	WithSwordAnimBP_C /Engine/Transient.World_18:PersistentLevel.Actor_3.DebugSkelMeshComponent_8.WithSwordAnimBP_C_5
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:06F3
+[2018.02.14-05.37.55:864][195]LogScript: Warning: Accessed None trying to read property WithSword Reference
+	WithSwordAnimBP_C /Engine/Transient.World_18:PersistentLevel.Actor_3.DebugSkelMeshComponent_8.WithSwordAnimBP_C_5
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:06DE
+[2018.02.14-05.37.55:864][195]LogScript: Warning: Accessed None
+	WithSwordAnimBP_C /Engine/Transient.World_18:PersistentLevel.Actor_3.DebugSkelMeshComponent_8.WithSwordAnimBP_C_5
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:06F3
+[2018.02.14-05.37.55:876][196]LogScript: Warning: Accessed None trying to read property WithSword Reference
+	WithSwordAnimBP_C /Engine/Transient.World_18:PersistentLevel.Actor_3.DebugSkelMeshComponent_8.WithSwordAnimBP_C_5
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:06DE
+[2018.02.14-05.39.23:385][275]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.14-05.39.23:399][275]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.14-05.39.23:399][275]PIE: New page: PIE session: SpawnMap (Feb 13, 2018, 7:39:23 PM)
+[2018.02.14-05.39.23:399][275]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_SpawnMap
+[2018.02.14-05.39.23:414][275]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014624s)
+[2018.02.14-05.39.23:414][275]LogAIModule: Creating AISystem for world SpawnMap
+[2018.02.14-05.39.23:414][275]LogPlayLevel: PIE: World Init took: (0.000593s)
+[2018.02.14-05.39.23:415][275]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/SpawnMap.SpawnMap to /Game/Maps/UEDPIE_0_SpawnMap.SpawnMap (0.015470s)
+[2018.02.14-05.39.23:440][275]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.14-05.39.23:448][275]LogInit: FAudioDevice initialized.
+[2018.02.14-05.39.23:480][275]LogLoad: Game class is 'LabyrinthGame_C'
+[2018.02.14-05.39.23:482][275]LogWorld: Bringing World /Game/Maps/UEDPIE_0_SpawnMap.SpawnMap up for play (max tick rate 0) at 2018.02.14-00.39.23
+[2018.02.14-05.39.23:482][275]LogWorld: Bringing up level for play took: 0.001153
+[2018.02.14-05.39.23:484][275]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_SpawnMap -0.85
+[2018.02.14-05.39.46:583][982]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_21:PersistentLevel.Actor_4.DebugSkelMeshComponent_10) Already registered. Aborting.
+[2018.02.14-05.39.46:583][982]LogScript: Warning: Accessed None trying to read property WithSword Reference
+	WithSwordAnimBP_C /Engine/Transient.World_21:PersistentLevel.Actor_4.DebugSkelMeshComponent_10.WithSwordAnimBP_C_6
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:06DE
+[2018.02.14-05.39.46:583][982]LogScript: Warning: Accessed None
+	WithSwordAnimBP_C /Engine/Transient.World_21:PersistentLevel.Actor_4.DebugSkelMeshComponent_10.WithSwordAnimBP_C_6
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:06F3
+[2018.02.14-05.39.46:799][982]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_21:PersistentLevel.Actor_4.DebugSkelMeshComponent_10) - call TermArticulated first.
+[2018.02.14-05.39.47:034][982]LogScript: Warning: Accessed None trying to read property WithSword Reference
+	WithSwordAnimBP_C /Engine/Transient.World_21:PersistentLevel.Actor_4.DebugSkelMeshComponent_10.WithSwordAnimBP_C_6
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:06DE
+[2018.02.14-05.39.47:034][982]LogScript: Warning: Accessed None
+	WithSwordAnimBP_C /Engine/Transient.World_21:PersistentLevel.Actor_4.DebugSkelMeshComponent_10.WithSwordAnimBP_C_6
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:06F3
+[2018.02.14-05.39.47:204][982]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.02.14-05.39.47:237][983]LogScript: Warning: Accessed None trying to read property WithSword Reference
+	WithSwordAnimBP_C /Engine/Transient.World_21:PersistentLevel.Actor_4.DebugSkelMeshComponent_10.WithSwordAnimBP_C_6
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:06DE
+[2018.02.14-05.39.47:237][983]LogScript: Warning: Accessed None
+	WithSwordAnimBP_C /Engine/Transient.World_21:PersistentLevel.Actor_4.DebugSkelMeshComponent_10.WithSwordAnimBP_C_6
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:06F3
+[2018.02.14-05.39.47:266][984]LogScript: Warning: Accessed None trying to read property WithSword Reference
+	WithSwordAnimBP_C /Engine/Transient.World_21:PersistentLevel.Actor_4.DebugSkelMeshComponent_10.WithSwordAnimBP_C_6
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:06DE
+[2018.02.14-05.39.47:266][984]LogScript: Warning: Accessed None
+	WithSwordAnimBP_C /Engine/Transient.World_21:PersistentLevel.Actor_4.DebugSkelMeshComponent_10.WithSwordAnimBP_C_6
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:06F3
+[2018.02.14-05.39.47:293][985]LogScript: Warning: Accessed None trying to read property WithSword Reference
+	WithSwordAnimBP_C /Engine/Transient.World_21:PersistentLevel.Actor_4.DebugSkelMeshComponent_10.WithSwordAnimBP_C_6
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:06DE
+[2018.02.14-05.39.47:293][985]LogScript: Warning: Accessed None
+	WithSwordAnimBP_C /Engine/Transient.World_21:PersistentLevel.Actor_4.DebugSkelMeshComponent_10.WithSwordAnimBP_C_6
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:06F3
+[2018.02.14-05.39.47:312][986]LogScript: Warning: Accessed None trying to read property WithSword Reference
+	WithSwordAnimBP_C /Engine/Transient.World_21:PersistentLevel.Actor_4.DebugSkelMeshComponent_10.WithSwordAnimBP_C_6
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:06DE
+[2018.02.14-05.39.47:312][986]LogScript: Warning: Accessed None
+	WithSwordAnimBP_C /Engine/Transient.World_21:PersistentLevel.Actor_4.DebugSkelMeshComponent_10.WithSwordAnimBP_C_6
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:06F3
+[2018.02.14-05.39.47:330][987]LogScript: Warning: Accessed None trying to read property WithSword Reference
+	WithSwordAnimBP_C /Engine/Transient.World_21:PersistentLevel.Actor_4.DebugSkelMeshComponent_10.WithSwordAnimBP_C_6
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:06DE
+[2018.02.14-05.39.47:330][987]LogScript: Warning: Accessed None
+	WithSwordAnimBP_C /Engine/Transient.World_21:PersistentLevel.Actor_4.DebugSkelMeshComponent_10.WithSwordAnimBP_C_6
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:06F3
+[2018.02.14-05.39.47:347][988]LogScript: Warning: Accessed None trying to read property WithSword Reference
+	WithSwordAnimBP_C /Engine/Transient.World_21:PersistentLevel.Actor_4.DebugSkelMeshComponent_10.WithSwordAnimBP_C_6
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:06DE
+[2018.02.14-05.39.47:347][988]LogScript: Warning: Accessed None
+	WithSwordAnimBP_C /Engine/Transient.World_21:PersistentLevel.Actor_4.DebugSkelMeshComponent_10.WithSwordAnimBP_C_6
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:06F3
+[2018.02.14-05.39.47:362][989]LogScript: Warning: Accessed None trying to read property WithSword Reference
+	WithSwordAnimBP_C /Engine/Transient.World_21:PersistentLevel.Actor_4.DebugSkelMeshComponent_10.WithSwordAnimBP_C_6
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:06DE
+[2018.02.14-05.41.48:570][121]BlueprintLog: New page: Compile WithSwordAnimBP
+[2018.02.14-05.41.48:649][121]LogScript: Warning: Accessed None trying to read property WithSword Reference
+	WithSwordAnimBP_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.WithSwordAnimBP_C_2
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:06DE
+[2018.02.14-05.41.48:649][121]LogScript: Warning: Accessed None
+	WithSwordAnimBP_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.WithSwordAnimBP_C_2
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:06F3
+[2018.02.14-05.41.49:787][163]LogSavePackage: Save=354.22ms
+[2018.02.14-05.41.49:787][163]LogSavePackage: Moving '../../../../../../Users/Jon/Documents/Unreal Projects/CAP-4053-Game/Saved/WithSwordAnimBPC194C79F4FAA12C03A7DABB63769A716.tmp' to '../../../../../../Users/Jon/Documents/Unreal Projects/CAP-4053-Game/Content/Characters/Hero/WithSword/WithSwordAnimBP.uasset'
+[2018.02.14-05.41.49:793][163]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jon/Documents/Unreal Projects/CAP-4053-Game/Content/Characters/Hero/WithSword/WithSwordAnimBP.uasset
+[2018.02.14-05.41.51:878][363]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.14-05.41.51:891][363]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.14-05.41.51:892][363]PIE: New page: PIE session: SpawnMap (Feb 13, 2018, 7:41:51 PM)
+[2018.02.14-05.41.51:892][363]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_SpawnMap
+[2018.02.14-05.41.51:907][363]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015103s)
+[2018.02.14-05.41.51:907][363]LogAIModule: Creating AISystem for world SpawnMap
+[2018.02.14-05.41.51:908][363]LogPlayLevel: PIE: World Init took: (0.000742s)
+[2018.02.14-05.41.51:908][363]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/SpawnMap.SpawnMap to /Game/Maps/UEDPIE_0_SpawnMap.SpawnMap (0.016149s)
+[2018.02.14-05.41.51:934][363]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.14-05.41.51:942][363]LogInit: FAudioDevice initialized.
+[2018.02.14-05.41.51:971][363]LogLoad: Game class is 'LabyrinthGame_C'
+[2018.02.14-05.41.51:973][363]LogWorld: Bringing World /Game/Maps/UEDPIE_0_SpawnMap.SpawnMap up for play (max tick rate 0) at 2018.02.14-00.41.51
+[2018.02.14-05.41.51:973][363]LogWorld: Bringing up level for play took: 0.001334
+[2018.02.14-05.41.51:975][363]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_SpawnMap -0.358
+[2018.02.14-05.43.12:143][368]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.14-05.43.12:156][368]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.14-05.43.12:156][368]PIE: New page: PIE session: SpawnMap (Feb 13, 2018, 7:43:12 PM)
+[2018.02.14-05.43.12:156][368]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_SpawnMap
+[2018.02.14-05.43.12:171][368]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014386s)
+[2018.02.14-05.43.12:172][368]LogAIModule: Creating AISystem for world SpawnMap
+[2018.02.14-05.43.12:172][368]LogPlayLevel: PIE: World Init took: (0.001201s)
+[2018.02.14-05.43.12:172][368]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/SpawnMap.SpawnMap to /Game/Maps/UEDPIE_0_SpawnMap.SpawnMap (0.015858s)
+[2018.02.14-05.43.12:208][368]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.14-05.43.12:216][368]LogInit: FAudioDevice initialized.
+[2018.02.14-05.43.12:250][368]LogLoad: Game class is 'LabyrinthGame_C'
+[2018.02.14-05.43.12:252][368]LogWorld: Bringing World /Game/Maps/UEDPIE_0_SpawnMap.SpawnMap up for play (max tick rate 0) at 2018.02.14-00.43.12
+[2018.02.14-05.43.12:252][368]LogWorld: Bringing up level for play took: 0.001132
+[2018.02.14-05.43.12:254][368]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_SpawnMap -0.079
+[2018.02.14-05.44.19:805][763]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.14-05.44.19:820][763]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.14-05.44.19:820][763]PIE: New page: PIE session: SpawnMap (Feb 13, 2018, 7:44:19 PM)
+[2018.02.14-05.44.19:820][763]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_SpawnMap
+[2018.02.14-05.44.19:836][763]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015674s)
+[2018.02.14-05.44.19:836][763]LogAIModule: Creating AISystem for world SpawnMap
+[2018.02.14-05.44.19:836][763]LogPlayLevel: PIE: World Init took: (0.000651s)
+[2018.02.14-05.44.19:837][763]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/SpawnMap.SpawnMap to /Game/Maps/UEDPIE_0_SpawnMap.SpawnMap (0.016604s)
+[2018.02.14-05.44.19:866][763]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.14-05.44.19:874][763]LogInit: FAudioDevice initialized.
+[2018.02.14-05.44.19:904][763]LogLoad: Game class is 'LabyrinthGame_C'
+[2018.02.14-05.44.19:905][763]LogWorld: Bringing World /Game/Maps/UEDPIE_0_SpawnMap.SpawnMap up for play (max tick rate 0) at 2018.02.14-00.44.19
+[2018.02.14-05.44.19:905][763]LogWorld: Bringing up level for play took: 0.001242
+[2018.02.14-05.44.19:907][763]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_SpawnMap -0.426
+[2018.02.14-05.44.43:131][485]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.14-05.44.43:145][485]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.14-05.44.43:145][485]PIE: New page: PIE session: SpawnMap (Feb 13, 2018, 7:44:43 PM)
+[2018.02.14-05.44.43:145][485]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_SpawnMap
+[2018.02.14-05.44.43:158][485]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013245s)
+[2018.02.14-05.44.43:159][485]LogAIModule: Creating AISystem for world SpawnMap
+[2018.02.14-05.44.43:159][485]LogPlayLevel: PIE: World Init took: (0.000585s)
+[2018.02.14-05.44.43:159][485]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/SpawnMap.SpawnMap to /Game/Maps/UEDPIE_0_SpawnMap.SpawnMap (0.014067s)
+[2018.02.14-05.44.43:183][485]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.14-05.44.43:191][485]LogInit: FAudioDevice initialized.
+[2018.02.14-05.44.43:224][485]LogLoad: Game class is 'LabyrinthGame_C'
+[2018.02.14-05.44.43:226][485]LogWorld: Bringing World /Game/Maps/UEDPIE_0_SpawnMap.SpawnMap up for play (max tick rate 0) at 2018.02.14-00.44.43
+[2018.02.14-05.44.43:226][485]LogWorld: Bringing up level for play took: 0.001109
+[2018.02.14-05.44.43:228][485]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_SpawnMap 0.895
+[2018.02.14-05.46.07:866][414]BlueprintLog: New page: Compile WithSwordAnimBP
+[2018.02.14-05.46.07:971][414]LogScript: Warning: Accessed None trying to read property WithSword Reference
+	WithSwordAnimBP_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.WithSwordAnimBP_C_3
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:06DE
+[2018.02.14-05.46.07:971][414]LogScript: Warning: Accessed None
+	WithSwordAnimBP_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.WithSwordAnimBP_C_3
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:06F3
+[2018.02.14-05.46.09:455][509]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.14-05.46.09:468][509]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.14-05.46.09:469][509]PIE: New page: PIE session: SpawnMap (Feb 13, 2018, 7:46:09 PM)
+[2018.02.14-05.46.09:469][509]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_SpawnMap
+[2018.02.14-05.46.09:485][509]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016439s)
+[2018.02.14-05.46.09:486][509]LogAIModule: Creating AISystem for world SpawnMap
+[2018.02.14-05.46.09:486][509]LogPlayLevel: PIE: World Init took: (0.000694s)
+[2018.02.14-05.46.09:486][509]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/SpawnMap.SpawnMap to /Game/Maps/UEDPIE_0_SpawnMap.SpawnMap (0.017413s)
+[2018.02.14-05.46.09:511][509]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.14-05.46.09:519][509]LogInit: FAudioDevice initialized.
+[2018.02.14-05.46.09:554][509]LogLoad: Game class is 'LabyrinthGame_C'
+[2018.02.14-05.46.09:556][509]LogWorld: Bringing World /Game/Maps/UEDPIE_0_SpawnMap.SpawnMap up for play (max tick rate 0) at 2018.02.14-00.46.09
+[2018.02.14-05.46.09:556][509]LogWorld: Bringing up level for play took: 0.001174
+[2018.02.14-05.46.09:558][509]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_SpawnMap -0.776
+[2018.02.14-05.46.28:664][731]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.14-05.46.28:677][731]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.14-05.46.28:678][731]PIE: New page: PIE session: SpawnMap (Feb 13, 2018, 7:46:28 PM)
+[2018.02.14-05.46.28:678][731]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_SpawnMap
+[2018.02.14-05.46.28:691][731]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013328s)
+[2018.02.14-05.46.28:691][731]LogAIModule: Creating AISystem for world SpawnMap
+[2018.02.14-05.46.28:692][731]LogPlayLevel: PIE: World Init took: (0.000616s)
+[2018.02.14-05.46.28:692][731]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/SpawnMap.SpawnMap to /Game/Maps/UEDPIE_0_SpawnMap.SpawnMap (0.014185s)
+[2018.02.14-05.46.28:716][731]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.14-05.46.28:723][731]LogInit: FAudioDevice initialized.
+[2018.02.14-05.46.28:755][731]LogLoad: Game class is 'LabyrinthGame_C'
+[2018.02.14-05.46.28:757][731]LogWorld: Bringing World /Game/Maps/UEDPIE_0_SpawnMap.SpawnMap up for play (max tick rate 0) at 2018.02.14-00.46.28
+[2018.02.14-05.46.28:757][731]LogWorld: Bringing up level for play took: 0.001128
+[2018.02.14-05.46.28:759][731]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_SpawnMap 0.426
+[2018.02.14-05.47.17:093][253]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/SpawnMap' took 0.041
+[2018.02.14-05.47.17:097][253]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/Hero/WithSword/WithSwordAnimBP] ([1] browsable assets)...
+[2018.02.14-05.47.17:115][253]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP]
+[2018.02.14-05.47.17:115][253]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Hero/WithSword/WithSwordAnimBP]
+[2018.02.14-05.47.17:596][253]LogSavePackage: Save=467.66ms
+[2018.02.14-05.47.17:596][253]LogSavePackage: Moving '../../../../../../Users/Jon/Documents/Unreal Projects/CAP-4053-Game/Saved/WithSwordAnimBP_Auto1442B3E9C44F51088A98B0EBAB5B38ED6.tmp' to '../../../../../../Users/Jon/Documents/Unreal Projects/CAP-4053-Game/Saved/Autosaves/Game/Characters/Hero/WithSword/WithSwordAnimBP_Auto1.uasset'
+[2018.02.14-05.47.17:599][253]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jon/Documents/Unreal Projects/CAP-4053-Game/Saved/Autosaves/Game/Characters/Hero/WithSword/WithSwordAnimBP_Auto1.uasset
+[2018.02.14-05.47.17:600][253]LogFileHelpers: Auto-saving content packages took 0.505
