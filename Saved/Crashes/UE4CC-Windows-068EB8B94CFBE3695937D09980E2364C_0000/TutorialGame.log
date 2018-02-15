@@ -1,0 +1,991 @@
+﻿Log file open, 02/13/18 21:30:39
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: TutorialGame
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-2079538293) SRandInit(-2079538293).
+LogInit: Read version file with build ID '3709383'
+LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
+LogInit: Registered custom module enumerator with build ID '3709383'
+LogTaskGraph: Started task graph with 5 named threads and 20 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.701221
+LogD3D11RHI: Aftermath initialized
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3709383).
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.18-CL-3832480
+LogInit: Engine Version: 4.18.3-3832480+++UE4+Release-4.18
+LogInit: Compatible Engine Version: 4.18.0-3709383+++UE4+Release-4.18
+LogInit: Net CL: 3709383
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 30
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 20
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 12
+LogInit: Compiled (64-bit): Jan 12 2018 02:04:55
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.18
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.02.14-02.30.42:199][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.14-02.30.42:199][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.02.14-02.30.42:221][  0]LogInit: Computer: CHIPETTO
+[2018.02.14-02.30.42:221][  0]LogInit: User: Jon
+[2018.02.14-02.30.42:221][  0]LogInit: CPU Page size=4096, Cores=6
+[2018.02.14-02.30.42:221][  0]LogInit: High frequency timer resolution =3.415987 MHz
+[2018.02.14-02.30.42:221][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.02.14-02.30.42:221][  0]LogMemory: Platform Memory Stats for Windows
+[2018.02.14-02.30.42:221][  0]LogMemory: Process Physical Memory: 271.23 MB used, 271.23 MB peak
+[2018.02.14-02.30.42:221][  0]LogMemory: Process Virtual Memory: 272.47 MB used, 272.47 MB peak
+[2018.02.14-02.30.42:221][  0]LogMemory: Physical Memory: 3742.42 MB used,  12554.08 MB free, 16296.50 MB total
+[2018.02.14-02.30.42:221][  0]LogMemory: Virtual Memory: 629.78 MB used,  12554.08 MB free, 134217728.00 MB total
+[2018.02.14-02.30.42:560][  0]LogInit: Using OS detected language (en-US).
+[2018.02.14-02.30.42:560][  0]LogInit: Using OS detected locale (en-US).
+[2018.02.14-02.30.42:568][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.02.14-02.30.43:017][  0]LogInit: Setting process to per monitor DPI aware
+[2018.02.14-02.30.43:413][  0]LogD3D11RHI: D3D11 adapters:
+[2018.02.14-02.30.43:457][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2018.02.14-02.30.43:457][  0]LogD3D11RHI:       8046/0/8148 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.02.14-02.30.43:458][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.02.14-02.30.43:458][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.02.14-02.30.43:458][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.02.14-02.30.43:467][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.02.14-02.30.43:467][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2018.02.14-02.30.43:468][  0]LogWindows: EnumDisplayDevices:
+[2018.02.14-02.30.43:468][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2018.02.14-02.30.43:468][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2018.02.14-02.30.43:468][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.02.14-02.30.43:468][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.02.14-02.30.43:469][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.02.14-02.30.43:469][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2018.02.14-02.30.43:469][  0]LogD3D11RHI:   Driver Version: 390.65 (internal:23.21.13.9065, unified:390.65)
+[2018.02.14-02.30.43:469][  0]LogD3D11RHI:      Driver Date: 1-3-2018
+[2018.02.14-02.30.43:469][  0]LogRHI: Texture pool is 5632 MB (70% of 8046 MB)
+[2018.02.14-02.30.43:499][  0]LogD3D11RHI: Async texture creation enabled
+[2018.02.14-02.30.43:535][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.02.14-02.30.43:590][  0]LogShaderCompilers: Guid format shader working directory is -24 characters bigger than the processId version (../../../../../../Users/Jon/Documents/Unreal Projects/CAP-4053-Game/Intermediate/Shaders/WorkingDirectory/12536/).
+[2018.02.14-02.30.43:591][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Jon/AppData/Local/Temp/UnrealShaderWorkingDir/9F2D72FA467EFD31BB6D1494B089E7D6/'.
+[2018.02.14-02.30.43:591][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.02.14-02.30.45:097][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.02.14-02.30.45:195][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.02.14-02.30.45:261][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.02.14-02.30.45:333][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.02.14-02.30.45:394][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.02.14-02.30.45:464][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.02.14-02.30.45:541][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.02.14-02.30.45:604][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.02.14-02.30.45:661][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.02.14-02.30.45:729][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.02.14-02.30.45:794][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.02.14-02.30.45:872][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.02.14-02.30.45:938][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.02.14-02.30.46:020][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.02.14-02.30.46:171][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.02.14-02.30.46:171][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.02.14-02.30.46:254][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.02.14-02.30.46:311][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.02.14-02.30.46:434][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.02.14-02.30.46:468][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.02.14-02.30.46:552][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.02.14-02.30.46:620][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.02.14-02.30.46:677][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.02.14-02.30.46:764][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.02.14-02.30.46:765][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.02.14-02.30.47:511][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.02.14-02.30.47:794][  0]LogDerivedDataCache: Loaded boot cache 0.28s 78MB C:/Users/Jon/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.02.14-02.30.47:794][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Jon/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.02.14-02.30.47:794][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Jon/Documents/Unreal Projects/CAP-4053-Game/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.02.14-02.30.47:794][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.02.14-02.30.47:794][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Jon/Documents/Unreal Projects/CAP-4053-Game/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.02.14-02.30.47:794][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.02.14-02.30.47:816][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.02.14-02.30.47:829][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Jon/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.02.14-02.30.47:841][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.02.14-02.30.47:845][  0]LogSlate: Using Freetype 2.6.0
+[2018.02.14-02.30.47:847][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.02.14-02.30.47:847][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.02.14-02.30.48:567][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.14-02.30.49:106][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.02.14-02.30.49:162][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.02.14-02.30.49:162][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.02.14-02.30.49:163][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.02.14-02.30.49:163][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.02.14-02.30.49:163][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.02.14-02.30.49:239][  0]LogNetVersion: TutorialGame , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4282821769)
+[2018.02.14-02.30.49:517][  0]LogAssetRegistry: FAssetRegistry took 0.0276 seconds to start up
+[2018.02.14-02.30.50:348][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.077551 seconds
+[2018.02.14-02.30.50:359][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2018.02.14-02.30.50:359][  0]LogUObjectAllocator: 7363696 out of 0 bytes used by permanent object pool.
+[2018.02.14-02.30.50:359][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.02.14-02.30.50:431][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.02.14-02.30.54:734][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.02.14-02.30.54:803][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.02.14-02.30.55:887][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.02.14-02.30.56:600][  0]SourceControl: Source control is disabled
+[2018.02.14-02.30.56:601][  0]SourceControl: Source control is disabled
+[2018.02.14-02.30.56:731][  0]SourceControl: Source control is disabled
+[2018.02.14-02.30.56:827][  0]SourceControl: Source control is disabled
+[2018.02.14-02.30.58:302][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.02.14-02.30.58:701][  0]LogOcInput: OculusInput pre-init called
+[2018.02.14-02.30.59:172][  0]LogEngine: Initializing Engine...
+[2018.02.14-02.30.59:177][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.02.14-02.30.59:503][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.02.14-02.30.59:503][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.02.14-02.30.59:700][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.02.14-02.30.59:719][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.14-02.30.59:767][  0]LogInit: FAudioDevice initialized.
+[2018.02.14-02.30.59:859][  0]LogDerivedDataCache: Saved boot cache 0.09s 78MB C:/Users/Jon/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.02.14-02.30.59:878][  0]LogInit: Texture streaming: Enabled
+[2018.02.14-02.31.00:039][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.02.14-02.31.00:220][  0]LogInit: Transaction tracking system initialized
+[2018.02.14-02.31.00:734][  0]BlueprintLog: New page: Editor Load
+[2018.02.14-02.31.02:145][  0]LocalizationService: Localization service is disabled
+[2018.02.14-02.31.03:453][  0]LogConsoleResponse: Display: 
+[2018.02.14-02.31.03:778][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.02.14-02.31.03:778][  0]LogCook: Display: Mobile HDR setting 1
+[2018.02.14-02.31.03:778][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.02.14-02.31.04:631][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jon/Documents/Unreal Projects/CAP-4053-Game/Content/' took 0.02s
+[2018.02.14-02.31.05:400][  0]SourceControl: Source control is disabled
+[2018.02.14-02.31.05:402][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Jon/Documents/Unreal Projects/CAP-4053-Game/Content/Maps/SpawnMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.02.14-02.31.05:403][  0]LightingResults: New page: Lighting Build
+[2018.02.14-02.31.05:451][  0]MapCheck: New page: Map Check
+[2018.02.14-02.31.05:451][  0]LightingResults: New page: Lighting Build
+[2018.02.14-02.31.05:884][  0]LogAIModule: Creating AISystem for world SpawnMap
+[2018.02.14-02.31.05:906][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.02.14-02.31.05:932][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.02.14-02.31.06:006][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 73.979ms to complete.
+[2018.02.14-02.31.06:007][  0]LogFileHelpers: Loading map 'SpawnMap' took 0.606
+[2018.02.14-02.31.06:247][  0]LogCollectionManager: Loaded 0 collections in 0.002186 seconds
+[2018.02.14-02.31.06:360][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jon/Documents/Unreal Projects/CAP-4053-Game/Saved/Collections/' took 0.01s
+[2018.02.14-02.31.06:360][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jon/Documents/Unreal Projects/CAP-4053-Game/Content/Developers/Jon/Collections/' took 0.01s
+[2018.02.14-02.31.06:360][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jon/Documents/Unreal Projects/CAP-4053-Game/Content/Collections/' took 0.01s
+[2018.02.14-02.31.06:360][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.02.14-02.31.06:370][  0]LogContentBrowser: Native class hierarchy populated in 0.0083 seconds. Added 2363 classes and 519 folders.
+[2018.02.14-02.31.06:441][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.02.14-02.31.06:546][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.02.14-02.31.06:603][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2018.02.14-02.31.06:671][  0]LogSlate: Took 0.001079 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.02.14-02.31.06:675][  0]LogSlate: Took 0.001095 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.02.14-02.31.06:683][  0]LogSlate: Took 0.001144 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.02.14-02.31.06:797][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2018.02.14-02.31.07:130][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2018.02.14-02.31.07:130][  0]LogLoad: (Engine Initialization) Total time: 30.05 seconds
+[2018.02.14-02.31.07:130][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.02.14-02.31.07:131][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.02.14-02.31.07:500][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.02.14-02.31.08:481][  3]LogAssetRegistry: Asset discovery search completed in 18.9865 seconds
+[2018.02.14-02.31.08:486][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.02.14-02.31.08:486][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000103 seconds (updated 0 objects)
+[2018.02.14-02.31.11:820][ 13]LogSlate: Took 0.005878 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.14-02.31.23:710][489]LogSlate: Took 0.000256 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.14-02.31.53:180][ 52]LogEditorFactories: Performing atomic reimport of [C:/Users/Jon/Documents/School/CAP 4053/Game Assets/Crouch Walk In Place (rouge)/Crouch Walk Back.fbx]
+[2018.02.14-02.31.53:188][ 52]LogSlate: Took 0.000201 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.14-02.31.53:244][ 52]LogFbx: Loading FBX Scene from C:/Users/Jon/Documents/School/CAP 4053/Game Assets/Crouch Walk In Place (rouge)/Crouch Walk Back.fbx
+[2018.02.14-02.31.53:268][ 52]LogFbx: FBX Scene Loaded Succesfully
+[2018.02.14-02.31.53:272][ 52]LogEditorFactories: Warning: -- import failed
+[2018.02.14-02.31.53:277][ 52]FBXImport: Warning: No FBX mesh matches the Unreal mesh 'Crouch_Walk_Back'. 
+[2018.02.14-02.32.14:790][985]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Jon\Documents\School\CAP 4053\Game Assets\Crouch Walk In Place (rouge)\Crouch Walk Back In Place.fbx)
+[2018.02.14-02.32.14:809][985]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.02.14-02.32.14:809][985]LogFbx: ItemName: Model, ItemCount : 65
+[2018.02.14-02.32.14:809][985]LogFbx: ItemName: NodeAttribute, ItemCount : 65
+[2018.02.14-02.32.14:809][985]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2018.02.14-02.32.14:809][985]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2018.02.14-02.32.14:809][985]LogFbx: ItemName: AnimationCurveNode, ItemCount : 54
+[2018.02.14-02.32.14:809][985]LogFbx: ItemName: AnimationCurve, ItemCount : 315
+[2018.02.14-02.32.14:819][985]LogFbx: Loading FBX Scene from C:\Users\Jon\Documents\School\CAP 4053\Game Assets\Crouch Walk In Place (rouge)\Crouch Walk Back In Place.fbx
+[2018.02.14-02.32.14:850][985]LogFbx: FBX Scene Loaded Succesfully
+[2018.02.14-02.32.20:239][985]LogFbx: Loading FBX Scene from C:\Users\Jon\Documents\School\CAP 4053\Game Assets\Crouch Walk In Place (rouge)\Crouch Walk Back In Place.fbx
+[2018.02.14-02.32.20:267][985]LogFbx: FBX Scene Loaded Succesfully
+[2018.02.14-02.32.20:270][985]LogFbx: SortedLinks :(0) Hips
+[2018.02.14-02.32.20:270][985]LogFbx: SortedLinks :(1) Spine
+[2018.02.14-02.32.20:270][985]LogFbx: SortedLinks :(2) Spine1
+[2018.02.14-02.32.20:270][985]LogFbx: SortedLinks :(3) Spine2
+[2018.02.14-02.32.20:270][985]LogFbx: SortedLinks :(4) Neck
+[2018.02.14-02.32.20:270][985]LogFbx: SortedLinks :(5) Head
+[2018.02.14-02.32.20:270][985]LogFbx: SortedLinks :(6) HeadTop_End
+[2018.02.14-02.32.20:270][985]LogFbx: SortedLinks :(7) LeftShoulder
+[2018.02.14-02.32.20:270][985]LogFbx: SortedLinks :(8) LeftArm
+[2018.02.14-02.32.20:270][985]LogFbx: SortedLinks :(9) LeftForeArm
+[2018.02.14-02.32.20:270][985]LogFbx: SortedLinks :(10) LeftHand
+[2018.02.14-02.32.20:270][985]LogFbx: SortedLinks :(11) LeftHandThumb1
+[2018.02.14-02.32.20:270][985]LogFbx: SortedLinks :(12) LeftHandThumb2
+[2018.02.14-02.32.20:270][985]LogFbx: SortedLinks :(13) LeftHandThumb3
+[2018.02.14-02.32.20:270][985]LogFbx: SortedLinks :(14) LeftHandThumb4
+[2018.02.14-02.32.20:270][985]LogFbx: SortedLinks :(15) LeftHandIndex1
+[2018.02.14-02.32.20:270][985]LogFbx: SortedLinks :(16) LeftHandIndex2
+[2018.02.14-02.32.20:270][985]LogFbx: SortedLinks :(17) LeftHandIndex3
+[2018.02.14-02.32.20:270][985]LogFbx: SortedLinks :(18) LeftHandIndex4
+[2018.02.14-02.32.20:270][985]LogFbx: SortedLinks :(19) LeftHandMiddle1
+[2018.02.14-02.32.20:270][985]LogFbx: SortedLinks :(20) LeftHandMiddle2
+[2018.02.14-02.32.20:270][985]LogFbx: SortedLinks :(21) LeftHandMiddle3
+[2018.02.14-02.32.20:270][985]LogFbx: SortedLinks :(22) LeftHandMiddle4
+[2018.02.14-02.32.20:270][985]LogFbx: SortedLinks :(23) LeftHandRing1
+[2018.02.14-02.32.20:270][985]LogFbx: SortedLinks :(24) LeftHandRing2
+[2018.02.14-02.32.20:270][985]LogFbx: SortedLinks :(25) LeftHandRing3
+[2018.02.14-02.32.20:270][985]LogFbx: SortedLinks :(26) LeftHandRing4
+[2018.02.14-02.32.20:270][985]LogFbx: SortedLinks :(27) LeftHandPinky1
+[2018.02.14-02.32.20:270][985]LogFbx: SortedLinks :(28) LeftHandPinky2
+[2018.02.14-02.32.20:270][985]LogFbx: SortedLinks :(29) LeftHandPinky3
+[2018.02.14-02.32.20:270][985]LogFbx: SortedLinks :(30) LeftHandPinky4
+[2018.02.14-02.32.20:270][985]LogFbx: SortedLinks :(31) RightShoulder
+[2018.02.14-02.32.20:270][985]LogFbx: SortedLinks :(32) RightArm
+[2018.02.14-02.32.20:270][985]LogFbx: SortedLinks :(33) RightForeArm
+[2018.02.14-02.32.20:270][985]LogFbx: SortedLinks :(34) RightHand
+[2018.02.14-02.32.20:270][985]LogFbx: SortedLinks :(35) RightHandThumb1
+[2018.02.14-02.32.20:270][985]LogFbx: SortedLinks :(36) RightHandThumb2
+[2018.02.14-02.32.20:270][985]LogFbx: SortedLinks :(37) RightHandThumb3
+[2018.02.14-02.32.20:270][985]LogFbx: SortedLinks :(38) RightHandThumb4
+[2018.02.14-02.32.20:270][985]LogFbx: SortedLinks :(39) RightHandPinky1
+[2018.02.14-02.32.20:270][985]LogFbx: SortedLinks :(40) RightHandPinky2
+[2018.02.14-02.32.20:270][985]LogFbx: SortedLinks :(41) RightHandPinky3
+[2018.02.14-02.32.20:270][985]LogFbx: SortedLinks :(42) RightHandPinky4
+[2018.02.14-02.32.20:270][985]LogFbx: SortedLinks :(43) RightHandRing1
+[2018.02.14-02.32.20:270][985]LogFbx: SortedLinks :(44) RightHandRing2
+[2018.02.14-02.32.20:270][985]LogFbx: SortedLinks :(45) RightHandRing3
+[2018.02.14-02.32.20:270][985]LogFbx: SortedLinks :(46) RightHandRing4
+[2018.02.14-02.32.20:270][985]LogFbx: SortedLinks :(47) RightHandMiddle1
+[2018.02.14-02.32.20:270][985]LogFbx: SortedLinks :(48) RightHandMiddle2
+[2018.02.14-02.32.20:270][985]LogFbx: SortedLinks :(49) RightHandMiddle3
+[2018.02.14-02.32.20:270][985]LogFbx: SortedLinks :(50) RightHandMiddle4
+[2018.02.14-02.32.20:270][985]LogFbx: SortedLinks :(51) RightHandIndex1
+[2018.02.14-02.32.20:270][985]LogFbx: SortedLinks :(52) RightHandIndex2
+[2018.02.14-02.32.20:270][985]LogFbx: SortedLinks :(53) RightHandIndex3
+[2018.02.14-02.32.20:270][985]LogFbx: SortedLinks :(54) RightHandIndex4
+[2018.02.14-02.32.20:270][985]LogFbx: SortedLinks :(55) LeftUpLeg
+[2018.02.14-02.32.20:270][985]LogFbx: SortedLinks :(56) LeftLeg
+[2018.02.14-02.32.20:270][985]LogFbx: SortedLinks :(57) LeftFoot
+[2018.02.14-02.32.20:270][985]LogFbx: SortedLinks :(58) LeftToeBase
+[2018.02.14-02.32.20:270][985]LogFbx: SortedLinks :(59) LeftToe_End
+[2018.02.14-02.32.20:270][985]LogFbx: SortedLinks :(60) RightUpLeg
+[2018.02.14-02.32.20:270][985]LogFbx: SortedLinks :(61) RightLeg
+[2018.02.14-02.32.20:270][985]LogFbx: SortedLinks :(62) RightFoot
+[2018.02.14-02.32.20:270][985]LogFbx: SortedLinks :(63) RightToeBase
+[2018.02.14-02.32.20:270][985]LogFbx: SortedLinks :(64) RightToe_End
+[2018.02.14-02.32.20:271][985]LogFbx: Parsing AnimStack mixamo.com
+[2018.02.14-02.32.20:274][985]LogLinker: Can't find file '/Game/Characters/Hero/Animations/Crouch_Walk_Back_In_Place'
+[2018.02.14-02.32.20:274][985]LogLinker: Can't find file '/Game/Characters/Hero/Animations/Crouch_Walk_Back_In_Place'
+[2018.02.14-02.32.20:469][985]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Characters/Hero/Animations/Crouch_Walk_Back_In_Place.Crouch_Walk_Back_In_Place
+[2018.02.14-02.32.20:470][985]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.Crouch_Walk_Back_In_Place) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.02.14-02.32.22:898][223]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.02.14-02.32.23:230][223]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.02.14-02.32.23:313][223]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_4:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.02.14-02.32.23:574][223]LogSlate: Took 0.000525 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.02.14-02.32.23:797][223]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0003 seconds. Added 1 classes and 0 folders.
+[2018.02.14-02.32.23:812][223]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.02.14-02.33.46:606][938]LogSavePackage: Save=3.03ms
+[2018.02.14-02.33.46:606][938]LogSavePackage: Moving '../../../../../../Users/Jon/Documents/Unreal Projects/CAP-4053-Game/Saved/Crouch_Walk_Back_Anim_mixamo_comDC207CD944ACE3362A9FF7AFD1C8D20D.tmp' to '../../../../../../Users/Jon/Documents/Unreal Projects/CAP-4053-Game/Content/Characters/Hero/Animations/Crouch_Walk_Back_Anim_mixamo_com.uasset'
+[2018.02.14-02.33.46:612][938]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jon/Documents/Unreal Projects/CAP-4053-Game/Content/Characters/Hero/Animations/Crouch_Walk_Back_Anim_mixamo_com.uasset
+[2018.02.14-02.33.50:633][353]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/SpawnMap" FILE="../../../../../../Users/Jon/Documents/Unreal Projects/CAP-4053-Game/Content/Maps/SpawnMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.02.14-02.33.50:793][353]LogSavePackage: Save=126.61ms
+[2018.02.14-02.33.50:793][353]LogSavePackage: Moving '../../../../../../Users/Jon/Documents/Unreal Projects/CAP-4053-Game/Saved/SpawnMap6DD070804C4B22301468FDA73FEF0738.tmp' to '../../../../../../Users/Jon/Documents/Unreal Projects/CAP-4053-Game/Content/Maps/SpawnMap.umap'
+[2018.02.14-02.33.50:796][353]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jon/Documents/Unreal Projects/CAP-4053-Game/Content/Maps/SpawnMap.umap
+[2018.02.14-02.33.50:857][353]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/SpawnMap_BuiltData" FILE="../../../../../../Users/Jon/Documents/Unreal Projects/CAP-4053-Game/Content/Maps/SpawnMap_BuiltData.uasset" SILENT=true
+[2018.02.14-02.33.50:931][353]LogSavePackage: Save=65.99ms
+[2018.02.14-02.33.50:931][353]LogSavePackage: Moving '../../../../../../Users/Jon/Documents/Unreal Projects/CAP-4053-Game/Saved/SpawnMap_BuiltData0AE582A94DC01147DD34ADA076EFCDFF.tmp' to '../../../../../../Users/Jon/Documents/Unreal Projects/CAP-4053-Game/Content/Maps/SpawnMap_BuiltData.uasset'
+[2018.02.14-02.33.50:936][353]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jon/Documents/Unreal Projects/CAP-4053-Game/Content/Maps/SpawnMap_BuiltData.uasset
+[2018.02.14-02.34.19:422][656]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Jon\Documents\School\CAP 4053\Game Assets\Crouch Walk In Place (rouge)\Crouch Walk Right In Place.fbx)
+[2018.02.14-02.34.19:445][656]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.02.14-02.34.19:445][656]LogFbx: ItemName: Model, ItemCount : 65
+[2018.02.14-02.34.19:445][656]LogFbx: ItemName: NodeAttribute, ItemCount : 65
+[2018.02.14-02.34.19:445][656]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2018.02.14-02.34.19:445][656]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2018.02.14-02.34.19:445][656]LogFbx: ItemName: AnimationCurveNode, ItemCount : 54
+[2018.02.14-02.34.19:445][656]LogFbx: ItemName: AnimationCurve, ItemCount : 315
+[2018.02.14-02.34.19:458][656]LogFbx: Loading FBX Scene from C:\Users\Jon\Documents\School\CAP 4053\Game Assets\Crouch Walk In Place (rouge)\Crouch Walk Right In Place.fbx
+[2018.02.14-02.34.19:495][656]LogFbx: FBX Scene Loaded Succesfully
+[2018.02.14-02.34.23:138][656]LogFbx: Loading FBX Scene from C:\Users\Jon\Documents\School\CAP 4053\Game Assets\Crouch Walk In Place (rouge)\Crouch Walk Right In Place.fbx
+[2018.02.14-02.34.23:162][656]LogFbx: FBX Scene Loaded Succesfully
+[2018.02.14-02.34.23:165][656]LogFbx: SortedLinks :(0) Hips
+[2018.02.14-02.34.23:165][656]LogFbx: SortedLinks :(1) Spine
+[2018.02.14-02.34.23:165][656]LogFbx: SortedLinks :(2) Spine1
+[2018.02.14-02.34.23:165][656]LogFbx: SortedLinks :(3) Spine2
+[2018.02.14-02.34.23:165][656]LogFbx: SortedLinks :(4) Neck
+[2018.02.14-02.34.23:165][656]LogFbx: SortedLinks :(5) Head
+[2018.02.14-02.34.23:165][656]LogFbx: SortedLinks :(6) HeadTop_End
+[2018.02.14-02.34.23:165][656]LogFbx: SortedLinks :(7) LeftShoulder
+[2018.02.14-02.34.23:165][656]LogFbx: SortedLinks :(8) LeftArm
+[2018.02.14-02.34.23:165][656]LogFbx: SortedLinks :(9) LeftForeArm
+[2018.02.14-02.34.23:165][656]LogFbx: SortedLinks :(10) LeftHand
+[2018.02.14-02.34.23:165][656]LogFbx: SortedLinks :(11) LeftHandThumb1
+[2018.02.14-02.34.23:165][656]LogFbx: SortedLinks :(12) LeftHandThumb2
+[2018.02.14-02.34.23:165][656]LogFbx: SortedLinks :(13) LeftHandThumb3
+[2018.02.14-02.34.23:165][656]LogFbx: SortedLinks :(14) LeftHandThumb4
+[2018.02.14-02.34.23:165][656]LogFbx: SortedLinks :(15) LeftHandIndex1
+[2018.02.14-02.34.23:165][656]LogFbx: SortedLinks :(16) LeftHandIndex2
+[2018.02.14-02.34.23:165][656]LogFbx: SortedLinks :(17) LeftHandIndex3
+[2018.02.14-02.34.23:165][656]LogFbx: SortedLinks :(18) LeftHandIndex4
+[2018.02.14-02.34.23:165][656]LogFbx: SortedLinks :(19) LeftHandMiddle1
+[2018.02.14-02.34.23:165][656]LogFbx: SortedLinks :(20) LeftHandMiddle2
+[2018.02.14-02.34.23:165][656]LogFbx: SortedLinks :(21) LeftHandMiddle3
+[2018.02.14-02.34.23:165][656]LogFbx: SortedLinks :(22) LeftHandMiddle4
+[2018.02.14-02.34.23:165][656]LogFbx: SortedLinks :(23) LeftHandRing1
+[2018.02.14-02.34.23:165][656]LogFbx: SortedLinks :(24) LeftHandRing2
+[2018.02.14-02.34.23:165][656]LogFbx: SortedLinks :(25) LeftHandRing3
+[2018.02.14-02.34.23:165][656]LogFbx: SortedLinks :(26) LeftHandRing4
+[2018.02.14-02.34.23:165][656]LogFbx: SortedLinks :(27) LeftHandPinky1
+[2018.02.14-02.34.23:165][656]LogFbx: SortedLinks :(28) LeftHandPinky2
+[2018.02.14-02.34.23:165][656]LogFbx: SortedLinks :(29) LeftHandPinky3
+[2018.02.14-02.34.23:165][656]LogFbx: SortedLinks :(30) LeftHandPinky4
+[2018.02.14-02.34.23:165][656]LogFbx: SortedLinks :(31) RightShoulder
+[2018.02.14-02.34.23:165][656]LogFbx: SortedLinks :(32) RightArm
+[2018.02.14-02.34.23:165][656]LogFbx: SortedLinks :(33) RightForeArm
+[2018.02.14-02.34.23:165][656]LogFbx: SortedLinks :(34) RightHand
+[2018.02.14-02.34.23:165][656]LogFbx: SortedLinks :(35) RightHandThumb1
+[2018.02.14-02.34.23:165][656]LogFbx: SortedLinks :(36) RightHandThumb2
+[2018.02.14-02.34.23:165][656]LogFbx: SortedLinks :(37) RightHandThumb3
+[2018.02.14-02.34.23:165][656]LogFbx: SortedLinks :(38) RightHandThumb4
+[2018.02.14-02.34.23:165][656]LogFbx: SortedLinks :(39) RightHandPinky1
+[2018.02.14-02.34.23:165][656]LogFbx: SortedLinks :(40) RightHandPinky2
+[2018.02.14-02.34.23:165][656]LogFbx: SortedLinks :(41) RightHandPinky3
+[2018.02.14-02.34.23:165][656]LogFbx: SortedLinks :(42) RightHandPinky4
+[2018.02.14-02.34.23:165][656]LogFbx: SortedLinks :(43) RightHandRing1
+[2018.02.14-02.34.23:165][656]LogFbx: SortedLinks :(44) RightHandRing2
+[2018.02.14-02.34.23:165][656]LogFbx: SortedLinks :(45) RightHandRing3
+[2018.02.14-02.34.23:165][656]LogFbx: SortedLinks :(46) RightHandRing4
+[2018.02.14-02.34.23:165][656]LogFbx: SortedLinks :(47) RightHandMiddle1
+[2018.02.14-02.34.23:165][656]LogFbx: SortedLinks :(48) RightHandMiddle2
+[2018.02.14-02.34.23:165][656]LogFbx: SortedLinks :(49) RightHandMiddle3
+[2018.02.14-02.34.23:165][656]LogFbx: SortedLinks :(50) RightHandMiddle4
+[2018.02.14-02.34.23:165][656]LogFbx: SortedLinks :(51) RightHandIndex1
+[2018.02.14-02.34.23:165][656]LogFbx: SortedLinks :(52) RightHandIndex2
+[2018.02.14-02.34.23:165][656]LogFbx: SortedLinks :(53) RightHandIndex3
+[2018.02.14-02.34.23:165][656]LogFbx: SortedLinks :(54) RightHandIndex4
+[2018.02.14-02.34.23:165][656]LogFbx: SortedLinks :(55) LeftUpLeg
+[2018.02.14-02.34.23:165][656]LogFbx: SortedLinks :(56) LeftLeg
+[2018.02.14-02.34.23:166][656]LogFbx: SortedLinks :(57) LeftFoot
+[2018.02.14-02.34.23:166][656]LogFbx: SortedLinks :(58) LeftToeBase
+[2018.02.14-02.34.23:166][656]LogFbx: SortedLinks :(59) LeftToe_End
+[2018.02.14-02.34.23:166][656]LogFbx: SortedLinks :(60) RightUpLeg
+[2018.02.14-02.34.23:166][656]LogFbx: SortedLinks :(61) RightLeg
+[2018.02.14-02.34.23:166][656]LogFbx: SortedLinks :(62) RightFoot
+[2018.02.14-02.34.23:166][656]LogFbx: SortedLinks :(63) RightToeBase
+[2018.02.14-02.34.23:166][656]LogFbx: SortedLinks :(64) RightToe_End
+[2018.02.14-02.34.23:166][656]LogFbx: Parsing AnimStack mixamo.com
+[2018.02.14-02.34.23:168][656]LogLinker: Can't find file '/Game/Characters/Hero/Animations/Crouch_Walk_Right_In_Place'
+[2018.02.14-02.34.23:168][656]LogLinker: Can't find file '/Game/Characters/Hero/Animations/Crouch_Walk_Right_In_Place'
+[2018.02.14-02.34.23:331][656]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Characters/Hero/Animations/Crouch_Walk_Right_In_Place.Crouch_Walk_Right_In_Place
+[2018.02.14-02.34.23:332][656]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.Crouch_Walk_Right_In_Place) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.02.14-02.34.23:344][656]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 C:\Users\Jon\Documents\School\CAP 4053\Game Assets\Crouch Walk In Place (rouge)\Crouch Walk Forward In Place.fbx)
+[2018.02.14-02.34.23:359][656]LogFbx: Loading FBX Scene from C:\Users\Jon\Documents\School\CAP 4053\Game Assets\Crouch Walk In Place (rouge)\Crouch Walk Forward In Place.fbx
+[2018.02.14-02.34.23:382][656]LogFbx: FBX Scene Loaded Succesfully
+[2018.02.14-02.34.23:384][656]LogFbx: SortedLinks :(0) Hips
+[2018.02.14-02.34.23:384][656]LogFbx: SortedLinks :(1) Spine
+[2018.02.14-02.34.23:384][656]LogFbx: SortedLinks :(2) Spine1
+[2018.02.14-02.34.23:384][656]LogFbx: SortedLinks :(3) Spine2
+[2018.02.14-02.34.23:384][656]LogFbx: SortedLinks :(4) Neck
+[2018.02.14-02.34.23:384][656]LogFbx: SortedLinks :(5) Head
+[2018.02.14-02.34.23:384][656]LogFbx: SortedLinks :(6) HeadTop_End
+[2018.02.14-02.34.23:384][656]LogFbx: SortedLinks :(7) LeftShoulder
+[2018.02.14-02.34.23:384][656]LogFbx: SortedLinks :(8) LeftArm
+[2018.02.14-02.34.23:384][656]LogFbx: SortedLinks :(9) LeftForeArm
+[2018.02.14-02.34.23:384][656]LogFbx: SortedLinks :(10) LeftHand
+[2018.02.14-02.34.23:384][656]LogFbx: SortedLinks :(11) LeftHandThumb1
+[2018.02.14-02.34.23:384][656]LogFbx: SortedLinks :(12) LeftHandThumb2
+[2018.02.14-02.34.23:384][656]LogFbx: SortedLinks :(13) LeftHandThumb3
+[2018.02.14-02.34.23:384][656]LogFbx: SortedLinks :(14) LeftHandThumb4
+[2018.02.14-02.34.23:384][656]LogFbx: SortedLinks :(15) LeftHandIndex1
+[2018.02.14-02.34.23:384][656]LogFbx: SortedLinks :(16) LeftHandIndex2
+[2018.02.14-02.34.23:384][656]LogFbx: SortedLinks :(17) LeftHandIndex3
+[2018.02.14-02.34.23:384][656]LogFbx: SortedLinks :(18) LeftHandIndex4
+[2018.02.14-02.34.23:384][656]LogFbx: SortedLinks :(19) LeftHandMiddle1
+[2018.02.14-02.34.23:384][656]LogFbx: SortedLinks :(20) LeftHandMiddle2
+[2018.02.14-02.34.23:384][656]LogFbx: SortedLinks :(21) LeftHandMiddle3
+[2018.02.14-02.34.23:384][656]LogFbx: SortedLinks :(22) LeftHandMiddle4
+[2018.02.14-02.34.23:384][656]LogFbx: SortedLinks :(23) LeftHandRing1
+[2018.02.14-02.34.23:384][656]LogFbx: SortedLinks :(24) LeftHandRing2
+[2018.02.14-02.34.23:384][656]LogFbx: SortedLinks :(25) LeftHandRing3
+[2018.02.14-02.34.23:384][656]LogFbx: SortedLinks :(26) LeftHandRing4
+[2018.02.14-02.34.23:384][656]LogFbx: SortedLinks :(27) LeftHandPinky1
+[2018.02.14-02.34.23:384][656]LogFbx: SortedLinks :(28) LeftHandPinky2
+[2018.02.14-02.34.23:384][656]LogFbx: SortedLinks :(29) LeftHandPinky3
+[2018.02.14-02.34.23:384][656]LogFbx: SortedLinks :(30) LeftHandPinky4
+[2018.02.14-02.34.23:384][656]LogFbx: SortedLinks :(31) RightShoulder
+[2018.02.14-02.34.23:384][656]LogFbx: SortedLinks :(32) RightArm
+[2018.02.14-02.34.23:384][656]LogFbx: SortedLinks :(33) RightForeArm
+[2018.02.14-02.34.23:384][656]LogFbx: SortedLinks :(34) RightHand
+[2018.02.14-02.34.23:384][656]LogFbx: SortedLinks :(35) RightHandThumb1
+[2018.02.14-02.34.23:384][656]LogFbx: SortedLinks :(36) RightHandThumb2
+[2018.02.14-02.34.23:384][656]LogFbx: SortedLinks :(37) RightHandThumb3
+[2018.02.14-02.34.23:384][656]LogFbx: SortedLinks :(38) RightHandThumb4
+[2018.02.14-02.34.23:384][656]LogFbx: SortedLinks :(39) RightHandPinky1
+[2018.02.14-02.34.23:384][656]LogFbx: SortedLinks :(40) RightHandPinky2
+[2018.02.14-02.34.23:384][656]LogFbx: SortedLinks :(41) RightHandPinky3
+[2018.02.14-02.34.23:384][656]LogFbx: SortedLinks :(42) RightHandPinky4
+[2018.02.14-02.34.23:384][656]LogFbx: SortedLinks :(43) RightHandRing1
+[2018.02.14-02.34.23:384][656]LogFbx: SortedLinks :(44) RightHandRing2
+[2018.02.14-02.34.23:384][656]LogFbx: SortedLinks :(45) RightHandRing3
+[2018.02.14-02.34.23:384][656]LogFbx: SortedLinks :(46) RightHandRing4
+[2018.02.14-02.34.23:384][656]LogFbx: SortedLinks :(47) RightHandMiddle1
+[2018.02.14-02.34.23:384][656]LogFbx: SortedLinks :(48) RightHandMiddle2
+[2018.02.14-02.34.23:384][656]LogFbx: SortedLinks :(49) RightHandMiddle3
+[2018.02.14-02.34.23:384][656]LogFbx: SortedLinks :(50) RightHandMiddle4
+[2018.02.14-02.34.23:384][656]LogFbx: SortedLinks :(51) RightHandIndex1
+[2018.02.14-02.34.23:384][656]LogFbx: SortedLinks :(52) RightHandIndex2
+[2018.02.14-02.34.23:384][656]LogFbx: SortedLinks :(53) RightHandIndex3
+[2018.02.14-02.34.23:384][656]LogFbx: SortedLinks :(54) RightHandIndex4
+[2018.02.14-02.34.23:384][656]LogFbx: SortedLinks :(55) LeftUpLeg
+[2018.02.14-02.34.23:384][656]LogFbx: SortedLinks :(56) LeftLeg
+[2018.02.14-02.34.23:384][656]LogFbx: SortedLinks :(57) LeftFoot
+[2018.02.14-02.34.23:384][656]LogFbx: SortedLinks :(58) LeftToeBase
+[2018.02.14-02.34.23:384][656]LogFbx: SortedLinks :(59) LeftToe_End
+[2018.02.14-02.34.23:384][656]LogFbx: SortedLinks :(60) RightUpLeg
+[2018.02.14-02.34.23:384][656]LogFbx: SortedLinks :(61) RightLeg
+[2018.02.14-02.34.23:384][656]LogFbx: SortedLinks :(62) RightFoot
+[2018.02.14-02.34.23:384][656]LogFbx: SortedLinks :(63) RightToeBase
+[2018.02.14-02.34.23:384][656]LogFbx: SortedLinks :(64) RightToe_End
+[2018.02.14-02.34.23:385][656]LogFbx: Parsing AnimStack mixamo.com
+[2018.02.14-02.34.23:387][656]LogLinker: Can't find file '/Game/Characters/Hero/Animations/Crouch_Walk_Forward_In_Place'
+[2018.02.14-02.34.23:387][656]LogLinker: Can't find file '/Game/Characters/Hero/Animations/Crouch_Walk_Forward_In_Place'
+[2018.02.14-02.34.23:570][656]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Characters/Hero/Animations/Crouch_Walk_Forward_In_Place.Crouch_Walk_Forward_In_Place
+[2018.02.14-02.34.23:571][656]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.Crouch_Walk_Forward_In_Place) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.02.14-02.34.23:583][656]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 C:\Users\Jon\Documents\School\CAP 4053\Game Assets\Crouch Walk In Place (rouge)\Crouch Walk Left In Place.fbx)
+[2018.02.14-02.34.23:592][656]LogFbx: Loading FBX Scene from C:\Users\Jon\Documents\School\CAP 4053\Game Assets\Crouch Walk In Place (rouge)\Crouch Walk Left In Place.fbx
+[2018.02.14-02.34.23:615][656]LogFbx: FBX Scene Loaded Succesfully
+[2018.02.14-02.34.23:618][656]LogFbx: SortedLinks :(0) Hips
+[2018.02.14-02.34.23:618][656]LogFbx: SortedLinks :(1) Spine
+[2018.02.14-02.34.23:618][656]LogFbx: SortedLinks :(2) Spine1
+[2018.02.14-02.34.23:618][656]LogFbx: SortedLinks :(3) Spine2
+[2018.02.14-02.34.23:618][656]LogFbx: SortedLinks :(4) Neck
+[2018.02.14-02.34.23:618][656]LogFbx: SortedLinks :(5) Head
+[2018.02.14-02.34.23:618][656]LogFbx: SortedLinks :(6) HeadTop_End
+[2018.02.14-02.34.23:618][656]LogFbx: SortedLinks :(7) LeftShoulder
+[2018.02.14-02.34.23:618][656]LogFbx: SortedLinks :(8) LeftArm
+[2018.02.14-02.34.23:618][656]LogFbx: SortedLinks :(9) LeftForeArm
+[2018.02.14-02.34.23:618][656]LogFbx: SortedLinks :(10) LeftHand
+[2018.02.14-02.34.23:618][656]LogFbx: SortedLinks :(11) LeftHandThumb1
+[2018.02.14-02.34.23:618][656]LogFbx: SortedLinks :(12) LeftHandThumb2
+[2018.02.14-02.34.23:618][656]LogFbx: SortedLinks :(13) LeftHandThumb3
+[2018.02.14-02.34.23:618][656]LogFbx: SortedLinks :(14) LeftHandThumb4
+[2018.02.14-02.34.23:618][656]LogFbx: SortedLinks :(15) LeftHandIndex1
+[2018.02.14-02.34.23:618][656]LogFbx: SortedLinks :(16) LeftHandIndex2
+[2018.02.14-02.34.23:618][656]LogFbx: SortedLinks :(17) LeftHandIndex3
+[2018.02.14-02.34.23:618][656]LogFbx: SortedLinks :(18) LeftHandIndex4
+[2018.02.14-02.34.23:618][656]LogFbx: SortedLinks :(19) LeftHandMiddle1
+[2018.02.14-02.34.23:618][656]LogFbx: SortedLinks :(20) LeftHandMiddle2
+[2018.02.14-02.34.23:618][656]LogFbx: SortedLinks :(21) LeftHandMiddle3
+[2018.02.14-02.34.23:618][656]LogFbx: SortedLinks :(22) LeftHandMiddle4
+[2018.02.14-02.34.23:618][656]LogFbx: SortedLinks :(23) LeftHandRing1
+[2018.02.14-02.34.23:618][656]LogFbx: SortedLinks :(24) LeftHandRing2
+[2018.02.14-02.34.23:618][656]LogFbx: SortedLinks :(25) LeftHandRing3
+[2018.02.14-02.34.23:618][656]LogFbx: SortedLinks :(26) LeftHandRing4
+[2018.02.14-02.34.23:618][656]LogFbx: SortedLinks :(27) LeftHandPinky1
+[2018.02.14-02.34.23:618][656]LogFbx: SortedLinks :(28) LeftHandPinky2
+[2018.02.14-02.34.23:618][656]LogFbx: SortedLinks :(29) LeftHandPinky3
+[2018.02.14-02.34.23:618][656]LogFbx: SortedLinks :(30) LeftHandPinky4
+[2018.02.14-02.34.23:618][656]LogFbx: SortedLinks :(31) RightShoulder
+[2018.02.14-02.34.23:618][656]LogFbx: SortedLinks :(32) RightArm
+[2018.02.14-02.34.23:618][656]LogFbx: SortedLinks :(33) RightForeArm
+[2018.02.14-02.34.23:618][656]LogFbx: SortedLinks :(34) RightHand
+[2018.02.14-02.34.23:618][656]LogFbx: SortedLinks :(35) RightHandThumb1
+[2018.02.14-02.34.23:618][656]LogFbx: SortedLinks :(36) RightHandThumb2
+[2018.02.14-02.34.23:618][656]LogFbx: SortedLinks :(37) RightHandThumb3
+[2018.02.14-02.34.23:618][656]LogFbx: SortedLinks :(38) RightHandThumb4
+[2018.02.14-02.34.23:618][656]LogFbx: SortedLinks :(39) RightHandPinky1
+[2018.02.14-02.34.23:618][656]LogFbx: SortedLinks :(40) RightHandPinky2
+[2018.02.14-02.34.23:618][656]LogFbx: SortedLinks :(41) RightHandPinky3
+[2018.02.14-02.34.23:618][656]LogFbx: SortedLinks :(42) RightHandPinky4
+[2018.02.14-02.34.23:618][656]LogFbx: SortedLinks :(43) RightHandRing1
+[2018.02.14-02.34.23:618][656]LogFbx: SortedLinks :(44) RightHandRing2
+[2018.02.14-02.34.23:618][656]LogFbx: SortedLinks :(45) RightHandRing3
+[2018.02.14-02.34.23:618][656]LogFbx: SortedLinks :(46) RightHandRing4
+[2018.02.14-02.34.23:618][656]LogFbx: SortedLinks :(47) RightHandMiddle1
+[2018.02.14-02.34.23:618][656]LogFbx: SortedLinks :(48) RightHandMiddle2
+[2018.02.14-02.34.23:618][656]LogFbx: SortedLinks :(49) RightHandMiddle3
+[2018.02.14-02.34.23:618][656]LogFbx: SortedLinks :(50) RightHandMiddle4
+[2018.02.14-02.34.23:618][656]LogFbx: SortedLinks :(51) RightHandIndex1
+[2018.02.14-02.34.23:618][656]LogFbx: SortedLinks :(52) RightHandIndex2
+[2018.02.14-02.34.23:618][656]LogFbx: SortedLinks :(53) RightHandIndex3
+[2018.02.14-02.34.23:618][656]LogFbx: SortedLinks :(54) RightHandIndex4
+[2018.02.14-02.34.23:618][656]LogFbx: SortedLinks :(55) LeftUpLeg
+[2018.02.14-02.34.23:618][656]LogFbx: SortedLinks :(56) LeftLeg
+[2018.02.14-02.34.23:618][656]LogFbx: SortedLinks :(57) LeftFoot
+[2018.02.14-02.34.23:618][656]LogFbx: SortedLinks :(58) LeftToeBase
+[2018.02.14-02.34.23:618][656]LogFbx: SortedLinks :(59) LeftToe_End
+[2018.02.14-02.34.23:618][656]LogFbx: SortedLinks :(60) RightUpLeg
+[2018.02.14-02.34.23:618][656]LogFbx: SortedLinks :(61) RightLeg
+[2018.02.14-02.34.23:618][656]LogFbx: SortedLinks :(62) RightFoot
+[2018.02.14-02.34.23:618][656]LogFbx: SortedLinks :(63) RightToeBase
+[2018.02.14-02.34.23:618][656]LogFbx: SortedLinks :(64) RightToe_End
+[2018.02.14-02.34.23:619][656]LogFbx: Parsing AnimStack mixamo.com
+[2018.02.14-02.34.23:621][656]LogLinker: Can't find file '/Game/Characters/Hero/Animations/Crouch_Walk_Left_In_Place'
+[2018.02.14-02.34.23:621][656]LogLinker: Can't find file '/Game/Characters/Hero/Animations/Crouch_Walk_Left_In_Place'
+[2018.02.14-02.34.23:800][656]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Characters/Hero/Animations/Crouch_Walk_Left_In_Place.Crouch_Walk_Left_In_Place
+[2018.02.14-02.34.23:801][656]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.Crouch_Walk_Left_In_Place) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.02.14-02.34.30:253][313]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.Actor_1.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2018.02.14-02.34.30:291][313]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_7:PersistentLevel.Actor_1.DebugSkelMeshComponent_3) - call TermArticulated first.
+[2018.02.14-02.34.30:648][313]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.02.14-02.34.36:769][898]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.Actor_2.DebugSkelMeshComponent_6) Already registered. Aborting.
+[2018.02.14-02.34.36:804][898]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_10:PersistentLevel.Actor_2.DebugSkelMeshComponent_6) - call TermArticulated first.
+[2018.02.14-02.34.37:157][898]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.02.14-02.34.47:714][113]LogSavePackage: Save=2.35ms
+[2018.02.14-02.34.47:714][113]LogSavePackage: Moving '../../../../../../Users/Jon/Documents/Unreal Projects/CAP-4053-Game/Saved/Crouch_Walk_Forward_Anim_mixamo_1888D05348704443044649BD9AC0C520.tmp' to '../../../../../../Users/Jon/Documents/Unreal Projects/CAP-4053-Game/Content/Characters/Hero/Animations/Crouch_Walk_Forward_Anim_mixamo_com.uasset'
+[2018.02.14-02.34.47:720][113]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jon/Documents/Unreal Projects/CAP-4053-Game/Content/Characters/Hero/Animations/Crouch_Walk_Forward_Anim_mixamo_com.uasset
+[2018.02.14-02.34.58:571][293]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.Actor_3.DebugSkelMeshComponent_9) Already registered. Aborting.
+[2018.02.14-02.34.58:614][293]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_13:PersistentLevel.Actor_3.DebugSkelMeshComponent_9) - call TermArticulated first.
+[2018.02.14-02.34.58:962][293]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.02.14-02.35.01:103][461]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.Actor_4.DebugSkelMeshComponent_12) Already registered. Aborting.
+[2018.02.14-02.35.01:140][461]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_16:PersistentLevel.Actor_4.DebugSkelMeshComponent_12) - call TermArticulated first.
+[2018.02.14-02.35.01:458][461]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.02.14-02.35.10:280][590]LogSavePackage: Save=2.15ms
+[2018.02.14-02.35.10:280][590]LogSavePackage: Moving '../../../../../../Users/Jon/Documents/Unreal Projects/CAP-4053-Game/Saved/Crouch_Walk_Left_Anim_mixamo_comA47E6E5E47CD1552A47CF6BC24555881.tmp' to '../../../../../../Users/Jon/Documents/Unreal Projects/CAP-4053-Game/Content/Characters/Hero/Animations/Crouch_Walk_Left_Anim_mixamo_com.uasset'
+[2018.02.14-02.35.10:286][590]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jon/Documents/Unreal Projects/CAP-4053-Game/Content/Characters/Hero/Animations/Crouch_Walk_Left_Anim_mixamo_com.uasset
+[2018.02.14-02.35.23:597][957]LogSavePackage: Save=2.06ms
+[2018.02.14-02.35.23:597][957]LogSavePackage: Moving '../../../../../../Users/Jon/Documents/Unreal Projects/CAP-4053-Game/Saved/Crouch_Walk_Right_Anim_mixamo_co0517385F462B75C1F5C90FB0CF442A07.tmp' to '../../../../../../Users/Jon/Documents/Unreal Projects/CAP-4053-Game/Content/Characters/Hero/Animations/Crouch_Walk_Right_Anim_mixamo_com.uasset'
+[2018.02.14-02.35.23:602][957]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jon/Documents/Unreal Projects/CAP-4053-Game/Content/Characters/Hero/Animations/Crouch_Walk_Right_Anim_mixamo_com.uasset
+[2018.02.14-02.35.24:844][ 78]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.14-02.35.24:887][ 78]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.14-02.35.24:888][ 78]PIE: New page: PIE session: SpawnMap (Feb 13, 2018, 4:35:24 PM)
+[2018.02.14-02.35.24:888][ 78]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_SpawnMap
+[2018.02.14-02.35.24:901][ 78]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013322s)
+[2018.02.14-02.35.24:902][ 78]LogAIModule: Creating AISystem for world SpawnMap
+[2018.02.14-02.35.24:902][ 78]LogPlayLevel: PIE: World Init took: (0.000681s)
+[2018.02.14-02.35.24:902][ 78]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/SpawnMap.SpawnMap to /Game/Maps/UEDPIE_0_SpawnMap.SpawnMap (0.014263s)
+[2018.02.14-02.35.24:933][ 78]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.14-02.35.24:941][ 78]LogInit: FAudioDevice initialized.
+[2018.02.14-02.35.25:205][ 78]LogBlueprint: Warning: [Compiler WithSwordAnimBP] Node  Result  uses potentially thread-unsafe call  Get Player Controller . Disable threaded update or use a thread-safe call. Function may need BlueprintThreadSafe metadata adding.
+[2018.02.14-02.35.25:205][ 78]LogBlueprint: Warning: [Compiler WithSwordAnimBP] Node  Result  uses potentially thread-unsafe call  Get Player Controller . Disable threaded update or use a thread-safe call. Function may need BlueprintThreadSafe metadata adding.
+[2018.02.14-02.35.25:205][ 78]LogBlueprint: Warning: [Compiler WithSwordAnimBP] Node  Result  uses potentially thread-unsafe call  Get Player Controller . Disable threaded update or use a thread-safe call. Function may need BlueprintThreadSafe metadata adding.
+[2018.02.14-02.35.25:205][ 78]LogBlueprint: Warning: [Compiler WithSwordAnimBP] Node  Result  uses potentially thread-unsafe call  Get Player Controller . Disable threaded update or use a thread-safe call. Function may need BlueprintThreadSafe metadata adding.
+[2018.02.14-02.35.25:205][ 78]LogBlueprint: Warning: [Compiler WithSwordAnimBP] Node  Result  uses potentially thread-unsafe call  Get Player Character . Disable threaded update or use a thread-safe call. Function may need BlueprintThreadSafe metadata adding.
+[2018.02.14-02.35.25:205][ 78]LogBlueprint: Warning: [Compiler WithSwordAnimBP] Node  Result  uses potentially thread-unsafe call  Get CharacterMovement . Disable threaded update or use a thread-safe call. Function may need BlueprintThreadSafe metadata adding.
+[2018.02.14-02.35.25:206][ 78]LogBlueprint: Warning: [Compiler WithSwordAnimBP] [0288.13] Compile of WithSwordAnimBP successful, but with 6 Warning(s) [in 53 ms] (/Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP)
+[2018.02.14-02.35.25:315][ 78]LogLoad: Game class is 'LabyrinthGame_C'
+[2018.02.14-02.35.25:317][ 78]LogWorld: Bringing World /Game/Maps/UEDPIE_0_SpawnMap.SpawnMap up for play (max tick rate 0) at 2018.02.13-21.35.25
+[2018.02.14-02.35.25:317][ 78]LogWorld: Bringing up level for play took: 0.001241
+[2018.02.14-02.35.25:363][ 78]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 11 classes and 0 folders.
+[2018.02.14-02.35.25:365][ 78]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
+	WithSwordAnimBP_C /Game/Maps/UEDPIE_0_SpawnMap.SpawnMap:PersistentLevel.WithSwordBP_C_0.CharacterMesh0.WithSwordAnimBP_C_0
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:06F2
+[2018.02.14-02.35.25:365][ 78]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue from function: 'ExecuteUbergraph_WithSwordAnimBP' from node: Result in graph: Transition in object: WithSwordAnimBP with description: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
+[2018.02.14-02.35.25:365][ 78]LogScript: Warning: Accessed None
+	WithSwordAnimBP_C /Game/Maps/UEDPIE_0_SpawnMap.SpawnMap:PersistentLevel.WithSwordBP_C_0.CharacterMesh0.WithSwordAnimBP_C_0
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:0707
+[2018.02.14-02.35.25:365][ 78]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_WithSwordAnimBP' from node: Result in graph: Transition in object: WithSwordAnimBP with description: Accessed None
+[2018.02.14-02.35.25:368][ 78]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_SpawnMap 1.034
+[2018.02.14-02.38.54:061][397]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
+	WithSwordAnimBP_C /Engine/Transient.World_20:PersistentLevel.WithSwordBP_C_0.CharacterMesh0.WithSwordAnimBP_C_0
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:06F2
+[2018.02.14-02.38.54:061][397]LogScript: Warning: Accessed None
+	WithSwordAnimBP_C /Engine/Transient.World_20:PersistentLevel.WithSwordBP_C_0.CharacterMesh0.WithSwordAnimBP_C_0
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:0707
+[2018.02.14-02.38.54:062][397]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
+	WithSwordAnimBP_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.WithSwordAnimBP_C_1
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:06F2
+[2018.02.14-02.38.54:063][397]LogScript: Warning: Accessed None
+	WithSwordAnimBP_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.WithSwordAnimBP_C_1
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:0707
+[2018.02.14-02.39.26:456][883]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/SpawnMap" FILE="../../../../../../Users/Jon/Documents/Unreal Projects/CAP-4053-Game/Content/Maps/SpawnMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.02.14-02.39.26:619][883]LogSavePackage: Save=140.10ms
+[2018.02.14-02.39.26:619][883]LogSavePackage: Moving '../../../../../../Users/Jon/Documents/Unreal Projects/CAP-4053-Game/Saved/SpawnMapD3DCB9434C0244AAD8E5348E31687495.tmp' to '../../../../../../Users/Jon/Documents/Unreal Projects/CAP-4053-Game/Content/Maps/SpawnMap.umap'
+[2018.02.14-02.39.26:622][883]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jon/Documents/Unreal Projects/CAP-4053-Game/Content/Maps/SpawnMap.umap
+[2018.02.14-02.39.26:677][883]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/SpawnMap_BuiltData" FILE="../../../../../../Users/Jon/Documents/Unreal Projects/CAP-4053-Game/Content/Maps/SpawnMap_BuiltData.uasset" SILENT=true
+[2018.02.14-02.39.26:750][883]LogSavePackage: Save=61.25ms
+[2018.02.14-02.39.26:750][883]LogSavePackage: Moving '../../../../../../Users/Jon/Documents/Unreal Projects/CAP-4053-Game/Saved/SpawnMap_BuiltData92CF4235403625DD8F2B17A3924ADC79.tmp' to '../../../../../../Users/Jon/Documents/Unreal Projects/CAP-4053-Game/Content/Maps/SpawnMap_BuiltData.uasset'
+[2018.02.14-02.39.26:752][883]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jon/Documents/Unreal Projects/CAP-4053-Game/Content/Maps/SpawnMap_BuiltData.uasset
+[2018.02.14-02.39.30:316][275]LogSavePackage: Save=11.21ms
+[2018.02.14-02.39.30:316][275]LogSavePackage: Moving '../../../../../../Users/Jon/Documents/Unreal Projects/CAP-4053-Game/Saved/Crouch_Walk_Back_In_Place54A66DDF4FC91D1EB56D64BA082DE167.tmp' to '../../../../../../Users/Jon/Documents/Unreal Projects/CAP-4053-Game/Content/Characters/Hero/Animations/Crouch_Walk_Back_In_Place.uasset'
+[2018.02.14-02.39.30:321][275]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jon/Documents/Unreal Projects/CAP-4053-Game/Content/Characters/Hero/Animations/Crouch_Walk_Back_In_Place.uasset
+[2018.02.14-02.39.30:349][275]LogSavePackage: Save=10.82ms
+[2018.02.14-02.39.30:349][275]LogSavePackage: Moving '../../../../../../Users/Jon/Documents/Unreal Projects/CAP-4053-Game/Saved/Crouch_Walk_Right_In_PlaceDEE67C034DB562D9A1C2BABA83D01C1F.tmp' to '../../../../../../Users/Jon/Documents/Unreal Projects/CAP-4053-Game/Content/Characters/Hero/Animations/Crouch_Walk_Right_In_Place.uasset'
+[2018.02.14-02.39.30:353][275]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jon/Documents/Unreal Projects/CAP-4053-Game/Content/Characters/Hero/Animations/Crouch_Walk_Right_In_Place.uasset
+[2018.02.14-02.39.30:380][275]LogSavePackage: Save=10.65ms
+[2018.02.14-02.39.30:380][275]LogSavePackage: Moving '../../../../../../Users/Jon/Documents/Unreal Projects/CAP-4053-Game/Saved/Crouch_Walk_Forward_In_Place9CC5ACF44F2082DAD740A38E2BA818B5.tmp' to '../../../../../../Users/Jon/Documents/Unreal Projects/CAP-4053-Game/Content/Characters/Hero/Animations/Crouch_Walk_Forward_In_Place.uasset'
+[2018.02.14-02.39.30:384][275]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jon/Documents/Unreal Projects/CAP-4053-Game/Content/Characters/Hero/Animations/Crouch_Walk_Forward_In_Place.uasset
+[2018.02.14-02.39.30:420][275]LogSavePackage: Save=10.71ms
+[2018.02.14-02.39.30:420][275]LogSavePackage: Moving '../../../../../../Users/Jon/Documents/Unreal Projects/CAP-4053-Game/Saved/Crouch_Walk_Left_In_Place4B3D78154474CE22EC540ABD0DAE8FE1.tmp' to '../../../../../../Users/Jon/Documents/Unreal Projects/CAP-4053-Game/Content/Characters/Hero/Animations/Crouch_Walk_Left_In_Place.uasset'
+[2018.02.14-02.39.30:425][275]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jon/Documents/Unreal Projects/CAP-4053-Game/Content/Characters/Hero/Animations/Crouch_Walk_Left_In_Place.uasset
+[2018.02.14-02.43.37:614][325]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_22:PersistentLevel.Actor_5.DebugSkelMeshComponent_15) Already registered. Aborting.
+[2018.02.14-02.43.37:650][325]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_22:PersistentLevel.Actor_5.DebugSkelMeshComponent_15) - call TermArticulated first.
+[2018.02.14-02.43.37:871][325]LogSlate: Took 0.001305 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.02.14-02.43.37:940][325]LogRenderer: Reallocating scene render targets to support 1208x888 Format 10 NumSamples 1 (Frame:1).
+[2018.02.14-02.43.46:180][ 63]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_23:PersistentLevel.Actor_6.DebugSkelMeshComponent_16) Already registered. Aborting.
+[2018.02.14-02.43.46:214][ 63]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_23:PersistentLevel.Actor_6.DebugSkelMeshComponent_16) - call TermArticulated first.
+[2018.02.14-02.44.25:886][365]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 116 classes and 0 folders.
+[2018.02.14-02.44.26:733][365]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
+	WithSwordAnimBP_C /Engine/Transient.World_24:PersistentLevel.WithSwordBP_C_1.CharacterMesh0.WithSwordAnimBP_C_2
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:06F2
+[2018.02.14-02.44.26:733][365]LogScript: Warning: Accessed None
+	WithSwordAnimBP_C /Engine/Transient.World_24:PersistentLevel.WithSwordBP_C_1.CharacterMesh0.WithSwordAnimBP_C_2
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:0707
+[2018.02.14-02.44.26:735][365]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
+	WithSwordAnimBP_C /Engine/Transient.World_24:PersistentLevel.WithSwordBP_C_1.CharacterMesh0.WithSwordAnimBP_C_2
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:06F2
+[2018.02.14-02.44.26:735][365]LogScript: Warning: Accessed None
+	WithSwordAnimBP_C /Engine/Transient.World_24:PersistentLevel.WithSwordBP_C_1.CharacterMesh0.WithSwordAnimBP_C_2
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:0707
+[2018.02.14-02.44.26:741][365]LogSlate: Took 0.001322 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.02.14-02.44.26:931][366]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
+	WithSwordAnimBP_C /Engine/Transient.World_24:PersistentLevel.WithSwordBP_C_1.CharacterMesh0.WithSwordAnimBP_C_2
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:06F2
+[2018.02.14-02.44.26:931][366]LogScript: Warning: Accessed None
+	WithSwordAnimBP_C /Engine/Transient.World_24:PersistentLevel.WithSwordBP_C_1.CharacterMesh0.WithSwordAnimBP_C_2
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:0707
+[2018.02.14-02.44.27:007][367]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
+	WithSwordAnimBP_C /Engine/Transient.World_24:PersistentLevel.WithSwordBP_C_1.CharacterMesh0.WithSwordAnimBP_C_2
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:06F2
+[2018.02.14-02.44.27:007][367]LogScript: Warning: Accessed None
+	WithSwordAnimBP_C /Engine/Transient.World_24:PersistentLevel.WithSwordBP_C_1.CharacterMesh0.WithSwordAnimBP_C_2
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:0707
+[2018.02.14-02.44.27:027][368]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
+	WithSwordAnimBP_C /Engine/Transient.World_24:PersistentLevel.WithSwordBP_C_1.CharacterMesh0.WithSwordAnimBP_C_2
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:06F2
+[2018.02.14-02.44.27:027][368]LogScript: Warning: Accessed None
+	WithSwordAnimBP_C /Engine/Transient.World_24:PersistentLevel.WithSwordBP_C_1.CharacterMesh0.WithSwordAnimBP_C_2
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:0707
+[2018.02.14-02.44.27:044][369]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
+	WithSwordAnimBP_C /Engine/Transient.World_24:PersistentLevel.WithSwordBP_C_1.CharacterMesh0.WithSwordAnimBP_C_2
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:06F2
+[2018.02.14-02.44.27:045][369]LogScript: Warning: Accessed None
+	WithSwordAnimBP_C /Engine/Transient.World_24:PersistentLevel.WithSwordBP_C_1.CharacterMesh0.WithSwordAnimBP_C_2
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:0707
+[2018.02.14-02.44.27:065][370]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
+	WithSwordAnimBP_C /Engine/Transient.World_24:PersistentLevel.WithSwordBP_C_1.CharacterMesh0.WithSwordAnimBP_C_2
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:06F2
+[2018.02.14-02.44.27:065][370]LogScript: Warning: Accessed None
+	WithSwordAnimBP_C /Engine/Transient.World_24:PersistentLevel.WithSwordBP_C_1.CharacterMesh0.WithSwordAnimBP_C_2
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:0707
+[2018.02.14-02.44.27:091][371]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
+	WithSwordAnimBP_C /Engine/Transient.World_24:PersistentLevel.WithSwordBP_C_1.CharacterMesh0.WithSwordAnimBP_C_2
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:06F2
+[2018.02.14-02.44.27:091][371]LogScript: Warning: Accessed None
+	WithSwordAnimBP_C /Engine/Transient.World_24:PersistentLevel.WithSwordBP_C_1.CharacterMesh0.WithSwordAnimBP_C_2
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:0707
+[2018.02.14-02.44.27:116][372]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
+	WithSwordAnimBP_C /Engine/Transient.World_24:PersistentLevel.WithSwordBP_C_1.CharacterMesh0.WithSwordAnimBP_C_2
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:06F2
+[2018.02.14-02.44.33:590][748]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_26:PersistentLevel.Actor_7.DebugSkelMeshComponent_17) Already registered. Aborting.
+[2018.02.14-02.44.33:592][748]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
+	WithSwordAnimBP_C /Engine/Transient.World_26:PersistentLevel.Actor_7.DebugSkelMeshComponent_17.WithSwordAnimBP_C_3
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:06F2
+[2018.02.14-02.44.33:592][748]LogScript: Warning: Accessed None
+	WithSwordAnimBP_C /Engine/Transient.World_26:PersistentLevel.Actor_7.DebugSkelMeshComponent_17.WithSwordAnimBP_C_3
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:0707
+[2018.02.14-02.44.33:871][748]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_26:PersistentLevel.Actor_7.DebugSkelMeshComponent_17) - call TermArticulated first.
+[2018.02.14-02.44.34:193][748]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
+	WithSwordAnimBP_C /Engine/Transient.World_26:PersistentLevel.Actor_7.DebugSkelMeshComponent_17.WithSwordAnimBP_C_3
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:06F2
+[2018.02.14-02.44.34:193][748]LogScript: Warning: Accessed None
+	WithSwordAnimBP_C /Engine/Transient.World_26:PersistentLevel.Actor_7.DebugSkelMeshComponent_17.WithSwordAnimBP_C_3
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:0707
+[2018.02.14-02.44.34:294][748]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.02.14-02.44.34:325][749]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
+	WithSwordAnimBP_C /Engine/Transient.World_26:PersistentLevel.Actor_7.DebugSkelMeshComponent_17.WithSwordAnimBP_C_3
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:06F2
+[2018.02.14-02.44.34:325][749]LogScript: Warning: Accessed None
+	WithSwordAnimBP_C /Engine/Transient.World_26:PersistentLevel.Actor_7.DebugSkelMeshComponent_17.WithSwordAnimBP_C_3
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:0707
+[2018.02.14-02.44.34:348][750]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
+	WithSwordAnimBP_C /Engine/Transient.World_26:PersistentLevel.Actor_7.DebugSkelMeshComponent_17.WithSwordAnimBP_C_3
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:06F2
+[2018.02.14-02.44.34:348][750]LogScript: Warning: Accessed None
+	WithSwordAnimBP_C /Engine/Transient.World_26:PersistentLevel.Actor_7.DebugSkelMeshComponent_17.WithSwordAnimBP_C_3
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:0707
+[2018.02.14-02.44.34:365][751]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
+	WithSwordAnimBP_C /Engine/Transient.World_26:PersistentLevel.Actor_7.DebugSkelMeshComponent_17.WithSwordAnimBP_C_3
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:06F2
+[2018.02.14-02.44.34:366][751]LogScript: Warning: Accessed None
+	WithSwordAnimBP_C /Engine/Transient.World_26:PersistentLevel.Actor_7.DebugSkelMeshComponent_17.WithSwordAnimBP_C_3
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:0707
+[2018.02.14-02.44.34:379][752]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
+	WithSwordAnimBP_C /Engine/Transient.World_26:PersistentLevel.Actor_7.DebugSkelMeshComponent_17.WithSwordAnimBP_C_3
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:06F2
+[2018.02.14-02.44.34:379][752]LogScript: Warning: Accessed None
+	WithSwordAnimBP_C /Engine/Transient.World_26:PersistentLevel.Actor_7.DebugSkelMeshComponent_17.WithSwordAnimBP_C_3
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:0707
+[2018.02.14-02.44.34:400][753]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
+	WithSwordAnimBP_C /Engine/Transient.World_26:PersistentLevel.Actor_7.DebugSkelMeshComponent_17.WithSwordAnimBP_C_3
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:06F2
+[2018.02.14-02.44.34:401][753]LogScript: Warning: Accessed None
+	WithSwordAnimBP_C /Engine/Transient.World_26:PersistentLevel.Actor_7.DebugSkelMeshComponent_17.WithSwordAnimBP_C_3
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:0707
+[2018.02.14-02.44.34:414][754]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
+	WithSwordAnimBP_C /Engine/Transient.World_26:PersistentLevel.Actor_7.DebugSkelMeshComponent_17.WithSwordAnimBP_C_3
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:06F2
+[2018.02.14-02.44.34:414][754]LogScript: Warning: Accessed None
+	WithSwordAnimBP_C /Engine/Transient.World_26:PersistentLevel.Actor_7.DebugSkelMeshComponent_17.WithSwordAnimBP_C_3
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:0707
+[2018.02.14-02.44.34:427][755]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
+	WithSwordAnimBP_C /Engine/Transient.World_26:PersistentLevel.Actor_7.DebugSkelMeshComponent_17.WithSwordAnimBP_C_3
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:06F2
+[2018.02.14-02.44.42:746][194]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
+	WithSwordAnimBP_C /Engine/Transient.World_28:PersistentLevel.WithSwordBP_C_2.CharacterMesh0.WithSwordAnimBP_C_4
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:06F2
+[2018.02.14-02.44.42:746][194]LogScript: Warning: Accessed None
+	WithSwordAnimBP_C /Engine/Transient.World_28:PersistentLevel.WithSwordBP_C_2.CharacterMesh0.WithSwordAnimBP_C_4
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:0707
+[2018.02.14-02.44.42:747][194]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
+	WithSwordAnimBP_C /Engine/Transient.World_28:PersistentLevel.WithSwordBP_C_2.CharacterMesh0.WithSwordAnimBP_C_4
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:06F2
+[2018.02.14-02.44.42:747][194]LogScript: Warning: Accessed None
+	WithSwordAnimBP_C /Engine/Transient.World_28:PersistentLevel.WithSwordBP_C_2.CharacterMesh0.WithSwordAnimBP_C_4
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:0707
+[2018.02.14-02.44.42:942][195]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
+	WithSwordAnimBP_C /Engine/Transient.World_28:PersistentLevel.WithSwordBP_C_2.CharacterMesh0.WithSwordAnimBP_C_4
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:06F2
+[2018.02.14-02.44.42:942][195]LogScript: Warning: Accessed None
+	WithSwordAnimBP_C /Engine/Transient.World_28:PersistentLevel.WithSwordBP_C_2.CharacterMesh0.WithSwordAnimBP_C_4
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:0707
+[2018.02.14-02.44.43:007][196]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
+	WithSwordAnimBP_C /Engine/Transient.World_28:PersistentLevel.WithSwordBP_C_2.CharacterMesh0.WithSwordAnimBP_C_4
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:06F2
+[2018.02.14-02.44.43:007][196]LogScript: Warning: Accessed None
+	WithSwordAnimBP_C /Engine/Transient.World_28:PersistentLevel.WithSwordBP_C_2.CharacterMesh0.WithSwordAnimBP_C_4
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:0707
+[2018.02.14-02.44.43:023][197]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
+	WithSwordAnimBP_C /Engine/Transient.World_28:PersistentLevel.WithSwordBP_C_2.CharacterMesh0.WithSwordAnimBP_C_4
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:06F2
+[2018.02.14-02.44.43:023][197]LogScript: Warning: Accessed None
+	WithSwordAnimBP_C /Engine/Transient.World_28:PersistentLevel.WithSwordBP_C_2.CharacterMesh0.WithSwordAnimBP_C_4
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:0707
+[2018.02.14-02.44.43:043][198]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
+	WithSwordAnimBP_C /Engine/Transient.World_28:PersistentLevel.WithSwordBP_C_2.CharacterMesh0.WithSwordAnimBP_C_4
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:06F2
+[2018.02.14-02.44.43:043][198]LogScript: Warning: Accessed None
+	WithSwordAnimBP_C /Engine/Transient.World_28:PersistentLevel.WithSwordBP_C_2.CharacterMesh0.WithSwordAnimBP_C_4
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:0707
+[2018.02.14-02.44.43:071][199]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
+	WithSwordAnimBP_C /Engine/Transient.World_28:PersistentLevel.WithSwordBP_C_2.CharacterMesh0.WithSwordAnimBP_C_4
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:06F2
+[2018.02.14-02.44.43:071][199]LogScript: Warning: Accessed None
+	WithSwordAnimBP_C /Engine/Transient.World_28:PersistentLevel.WithSwordBP_C_2.CharacterMesh0.WithSwordAnimBP_C_4
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:0707
+[2018.02.14-02.44.43:094][200]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
+	WithSwordAnimBP_C /Engine/Transient.World_28:PersistentLevel.WithSwordBP_C_2.CharacterMesh0.WithSwordAnimBP_C_4
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:06F2
+[2018.02.14-02.44.43:094][200]LogScript: Warning: Accessed None
+	WithSwordAnimBP_C /Engine/Transient.World_28:PersistentLevel.WithSwordBP_C_2.CharacterMesh0.WithSwordAnimBP_C_4
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:0707
+[2018.02.14-02.44.43:117][201]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
+	WithSwordAnimBP_C /Engine/Transient.World_28:PersistentLevel.WithSwordBP_C_2.CharacterMesh0.WithSwordAnimBP_C_4
+	Function /Game/Characters/Hero/WithSword/WithSwordAnimBP.WithSwordAnimBP_C:ExecuteUbergraph_WithSwordAnimBP:06F2
+[2018.02.14-02.45.41:852][452]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.250 s
+[2018.02.14-02.45.41:853][452]LogOutputDevice: Error: === Handled ensure: ===
+[2018.02.14-02.45.41:853][452]LogOutputDevice: Error: 
+[2018.02.14-02.45.41:853][452]LogOutputDevice: Error: Ensure condition failed: CurObject != NULL [File:D:\Build\++UE4+Release-4.18+Compile\Sync\Engine\Source\Editor\UnrealEd\Private\ObjectTools.cpp] [Line: 2325]
+[2018.02.14-02.45.41:853][452]LogOutputDevice: Error: 
+[2018.02.14-02.45.41:853][452]LogOutputDevice: Error: Stack: 
+[2018.02.14-02.45.41:853][452]LogOutputDevice: Error: [Callstack] 0x00000000CB692786 UE4Editor-Core.dll!UnknownFunction []
+[2018.02.14-02.45.41:853][452]LogOutputDevice: Error: [Callstack] 0x00000000CB43123A UE4Editor-Core.dll!UnknownFunction []
+[2018.02.14-02.45.41:853][452]LogOutputDevice: Error: [Callstack] 0x00000000CB44B906 UE4Editor-Core.dll!UnknownFunction []
+[2018.02.14-02.45.41:853][452]LogOutputDevice: Error: [Callstack] 0x00000000BDAE517B UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.02.14-02.45.41:853][452]LogOutputDevice: Error: [Callstack] 0x00000000BD2BF989 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.02.14-02.45.41:853][452]LogOutputDevice: Error: [Callstack] 0x00000000BD53D292 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.02.14-02.45.41:853][452]LogOutputDevice: Error: [Callstack] 0x00000000BD4C4C92 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.02.14-02.45.41:853][452]LogOutputDevice: Error: [Callstack] 0x00000000BD4C7CA9 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.02.14-02.45.41:853][452]LogOutputDevice: Error: [Callstack] 0x00000000BD535A85 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.02.14-02.45.41:853][452]LogOutputDevice: Error: [Callstack] 0x00000000CA7E2B27 UE4Editor-Slate.dll!UnknownFunction []
+[2018.02.14-02.45.41:853][452]LogOutputDevice: Error: [Callstack] 0x00000000CA80EA04 UE4Editor-Slate.dll!UnknownFunction []
+[2018.02.14-02.45.41:853][452]LogOutputDevice: Error: [Callstack] 0x00000000CA625EFC UE4Editor-Slate.dll!UnknownFunction []
+[2018.02.14-02.45.41:853][452]LogOutputDevice: Error: [Callstack] 0x00000000CA5F8095 UE4Editor-Slate.dll!UnknownFunction []
+[2018.02.14-02.45.41:853][452]LogOutputDevice: Error: [Callstack] 0x00000000CA6928A7 UE4Editor-Slate.dll!UnknownFunction []
+[2018.02.14-02.45.41:853][452]LogOutputDevice: Error: [Callstack] 0x00000000CA67B092 UE4Editor-Slate.dll!UnknownFunction []
+[2018.02.14-02.45.41:853][452]LogOutputDevice: Error: [Callstack] 0x00000000CA66D902 UE4Editor-Slate.dll!UnknownFunction []
+[2018.02.14-02.45.41:853][452]LogOutputDevice: Error: [Callstack] 0x00000000D8FCE54B UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.02.14-02.45.41:853][452]LogOutputDevice: Error: [Callstack] 0x00000000D8FC1A48 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.02.14-02.45.41:853][452]LogOutputDevice: Error: [Callstack] 0x00000000D8FD03EC UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.02.14-02.45.41:853][452]LogOutputDevice: Error: [Callstack] 0x00000000D8FBD5A9 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.02.14-02.45.41:853][452]LogOutputDevice: Error: [Callstack] 0x00000000F6E424FD USER32.dll!UnknownFunction []
+[2018.02.14-02.45.41:853][452]LogOutputDevice: Error: [Callstack] 0x00000000F6E42357 USER32.dll!UnknownFunction []
+[2018.02.14-02.45.41:853][452]LogOutputDevice: Error: [Callstack] 0x00000000D8FD1479 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.02.14-02.45.41:854][452]LogOutputDevice: Error: [Callstack] 0x00000000CA69DB46 UE4Editor-Slate.dll!UnknownFunction []
+[2018.02.14-02.45.41:854][452]LogOutputDevice: Error: [Callstack] 0x00000000CA62F3A2 UE4Editor-Slate.dll!UnknownFunction []
+[2018.02.14-02.45.41:854][452]LogOutputDevice: Error: [Callstack] 0x00000000BD5CAB1C UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.02.14-02.45.41:854][452]LogOutputDevice: Error: [Callstack] 0x00000000BDADB553 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.02.14-02.45.41:854][452]LogOutputDevice: Error: [Callstack] 0x00000000BDADACB6 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.02.14-02.45.41:854][452]LogOutputDevice: Error: [Callstack] 0x00000000AE02EF81 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2018.02.14-02.45.41:854][452]LogOutputDevice: Error: [Callstack] 0x00000000AE161A13 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2018.02.14-02.45.41:854][452]LogOutputDevice: Error: [Callstack] 0x00000000AE138B91 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2018.02.14-02.45.41:854][452]LogOutputDevice: Error: [Callstack] 0x00000000AE1404D6 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2018.02.14-02.45.41:854][452]LogOutputDevice: Error: [Callstack] 0x00000000CA639636 UE4Editor-Slate.dll!UnknownFunction []
+[2018.02.14-02.45.41:854][452]LogOutputDevice: Error: [Callstack] 0x00000000CA6783A0 UE4Editor-Slate.dll!UnknownFunction []
+[2018.02.14-02.45.41:854][452]LogOutputDevice: Error: [Callstack] 0x00000000AE190AC9 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2018.02.14-02.45.41:854][452]LogOutputDevice: Error: [Callstack] 0x00000000CA6263A1 UE4Editor-Slate.dll!UnknownFunction []
+[2018.02.14-02.45.41:854][452]LogOutputDevice: Error: [Callstack] 0x00000000CA5F700E UE4Editor-Slate.dll!UnknownFunction []
+[2018.02.14-02.45.41:854][452]LogOutputDevice: Error: [Callstack] 0x00000000CA5F8C16 UE4Editor-Slate.dll!UnknownFunction []
+[2018.02.14-02.45.41:854][452]LogOutputDevice: Error: [Callstack] 0x00000000CA67988C UE4Editor-Slate.dll!UnknownFunction []
+[2018.02.14-02.45.41:854][452]LogOutputDevice: Error: [Callstack] 0x00000000CA66BEE8 UE4Editor-Slate.dll!UnknownFunction []
+[2018.02.14-02.45.41:854][452]LogOutputDevice: Error: [Callstack] 0x00000000D8FCE28A UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.02.14-02.45.41:854][452]LogOutputDevice: Error: [Callstack] 0x00000000D8FC1A48 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.02.14-02.45.41:854][452]LogOutputDevice: Error: [Callstack] 0x00000000D8FD03EC UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.02.14-02.45.41:854][452]LogOutputDevice: Error: [Callstack] 0x00000000D8FBD5A9 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.02.14-02.45.41:854][452]LogOutputDevice: Error: [Callstack] 0x00000000F6E424FD USER32.dll!UnknownFunction []
+[2018.02.14-02.45.41:854][452]LogOutputDevice: Error: [Callstack] 0x00000000F6E42357 USER32.dll!UnknownFunction []
+[2018.02.14-02.45.41:854][452]LogOutputDevice: Error: [Callstack] 0x00000000D8FD1516 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.02.14-02.45.41:854][452]LogOutputDevice: Error: [Callstack] 0x000000005CC450C8 UE4Editor.exe!UnknownFunction []
+[2018.02.14-02.45.41:854][452]LogOutputDevice: Error: [Callstack] 0x000000005CC55430 UE4Editor.exe!UnknownFunction []
+[2018.02.14-02.45.41:854][452]LogOutputDevice: Error: [Callstack] 0x000000005CC554AA UE4Editor.exe!UnknownFunction []
+[2018.02.14-02.45.41:855][452]LogOutputDevice: Error: [Callstack] 0x000000005CC62379 UE4Editor.exe!UnknownFunction []
+[2018.02.14-02.45.41:855][452]LogOutputDevice: Error: [Callstack] 0x000000005CC63D57 UE4Editor.exe!UnknownFunction []
+[2018.02.14-02.45.41:855][452]LogOutputDevice: Error: [Callstack] 0x00000000F4E613D2 KERNEL32.DLL!UnknownFunction []
+[2018.02.14-02.45.41:855][452]LogOutputDevice: Error: [Callstack] 0x00000000F70954F4 ntdll.dll!UnknownFunction []
+[2018.02.14-02.45.41:855][452]LogOutputDevice: Error: 
+[2018.02.14-02.45.41:859][452]LogStats:                SubmitErrorReport -  0.000 s
